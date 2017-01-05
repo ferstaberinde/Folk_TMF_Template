@@ -37,20 +37,4 @@ class CfgDebriefing
 };
 
 // DO NOT REMOVE. Include the macros for custom loadouts.
-#include "loadouts\_macros.hpp"
-
-class CfgLoadouts
-{
-    class USMC {
-        displayName = "USMC";
-        #include "loadouts\usmc.hpp"
-    };
-    class UN {
-        displayName = "United Nations";
-        #include "loadouts\un.hpp"
-    };
-    class VDV {
-        displayName = "VDV";
-        #include "loadouts\vdv.hpp"
-    };
-};
+#include "loadouts\_loadouts.hpp"
