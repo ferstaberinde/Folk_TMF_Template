@@ -64,15 +64,14 @@ class r : baseMan
     };
     items[] =
     {
-        // TO REPLACE: LIST_3("ACE_fieldDressing"),
-        // TO REPLACE: "ACE_morphine"
+        LIST_2("FirstAidKit")
     };
 };
 class g : r
 {
     displayName = "Grenadier";
     vest[] = {"rhs_6b23_digi_6sh92_vog"};
-    backpack[] = {"rhs_assault_umbts"};
+    backpack[] = {"rhs_sidor"};
     primaryWeapon[] = {"rhs_weap_ak74m_gp25"};
     magazines[] +=
     {
@@ -83,24 +82,22 @@ class g : r
 class car : r
 {
     displayName = "Carabinier";
-    //primaryWeapon[] = {"rhs_weap_ak105"}; -- 105 is for crew etc
+    primaryWeapon[] = {"rhs_weap_ak105"};
 };
 class m : car 
 {
     displayName = "Medic";
     vest[] = {"rhs_6b23_digi_medic"};
     backpackItems[] = {
-        // TO REPLACE: LIST_15("ACE_fieldDressing"),
-        // TO REPLACE: LIST_10("ACE_morphine"),
-        // TO REPLACE: LIST_6("ACE_epinephrine"),
-        // TO REPLACE: LIST_2("ACE_bloodIV"),
-        // TO REPLACE: LIST_2("rhs_mag_rdg2_white")
+        "Medikit",
+        LIST_7("FirstAidKit"),
+        LIST_2("rhs_mag_rdg2_white")
     };
 };
 class smg : r
 {
     displayName = "Submachinegunner";
-    primaryWeapon[] = {"rhs_weap_ak105"};
+    primaryWeapon[] = {"rhs_weap_aks74u"};
     silencer[] = {"rhs_acc_pgs64"};
     magazines[] =
     {
@@ -171,11 +168,7 @@ class fac : co
         "rhs_pdu4"
     };
     items[] = {
-        // TO REPLACE: LIST_3("ACE_fieldDressing"),
-        // TO REPLACE: "ACE_morphine",
-        // TO REPLACE: "ACE_Kestrel4500",
-        // TO REPLACE: "ACE_microDAGR",
-        // TO REPLACE: "ACE_Maptools"
+        LIST_2("FirstAidKit")
     };
 };
 class ar : r
@@ -185,7 +178,7 @@ class ar : r
     bipod[] = {};
     silencer[] = {};
     vest[] = {"rhs_6b23_digi_6sh92"};
-    backpack[] = {"rhs_assault_umbts"};
+    backpack[] = {"rhs_sidor"};
     sidearmWeapon[] = {};
     magazines[] =
     {
@@ -198,7 +191,7 @@ class aar : r
 {
     displayName = "Assistant Automatic Rifleman";
     vest[] = {"rhs_6b23_digi_6sh92_radio"};
-    backpack[] = {"rhs_assault_umbts"};
+    backpack[] = {"rhs_sidor"};
     backpackItems[] =
     {
         LIST_4("rhs_100Rnd_762x54mmR")
@@ -242,7 +235,7 @@ class mmgac : r
 {
     displayName = "MMG Ammo Carrier";
     vest[] = {"rhs_6b23_digi_6sh92"};
-    backpack[] = {"rhs_assault_umbts"};
+    backpack[] = {"rhs_sidor"};
     backpackItems[] =
     {
         LIST_4("rhs_100Rnd_762x54mmR")
@@ -461,7 +454,7 @@ class vc : smg
     vest[] = {"rhs_6b13_EMR_6sh92_headset_mapcase"};
     backpack[] = {"rhs_sidor"};
     radios[] = {"ACRE_PRC117F"};
-    headgear[] = {"rhs_tsh4","rhs_tsh4_bala","rhs_tsh4_ess","rhs_tsh4_ess_bala"};
+    headgear[] = {"rhs_tsh4"};
     goggles[] = {};
     linkedItems[] += {"Binocular","ItemGPS"};
 };
@@ -470,7 +463,7 @@ class vd : smg
     displayName = "Vehicle Driver";
     vest[] = {"rhs_6b13_EMR"};
     backpack[] = {"rhs_assault_umbts_engineer_empty"};
-    headgear[] = {"rhs_tsh4","rhs_tsh4_bala","rhs_tsh4_ess","rhs_tsh4_ess_bala"};
+    headgear[] = {"rhs_tsh4"};
     goggles[] = {};
     linkedItems[] += {"ItemGPS"};
     backpackItems[] = {"ToolKit"};
@@ -531,8 +524,7 @@ class jp : baseMan
     };
     items[] =
     {
-        // TO REPLACE: LIST_3("ACE_fieldDressing"),
-        // TO REPLACE: "ACE_morphine"
+        LIST_2("FirstAidKit")
     };
     linkedItems[] = {"ItemMap","ItemGPS","ItemCompass","ItemWatch"};
 };
