@@ -6,6 +6,10 @@ class CfgLoadouts
         displayName = "USMC";
         #include "usmc.hpp"
     };
+    class FIA_TS {
+        displayName = "FIA (Tiger Stripe)";
+        #include "fia_ts.hpp"
+    };
     class UN {
         displayName = "United Nations";
         #include "un.hpp"
