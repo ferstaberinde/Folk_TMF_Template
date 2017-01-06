@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={10494.988,20.784492,10282.539};
-		dir[]={-0.03823334,-0.23421943,-0.97156143};
-		up[]={-0.0092128925,0.97210097,-0.23412099};
-		aside[]={-0.99929637,-1.5251862e-007,0.039326467};
+		pos[]={10983.473,6.9657264,9937.6787};
+		dir[]={0.7910347,-0.34861389,-0.50297713};
+		up[]={0.29423109,0.93716621,-0.18708697};
+		aside[]={-0.53660452,3.3632386e-007,-0.84392262};
 	};
 };
 binarizationWanted=0;
@@ -603,25 +603,6 @@ class CustomAttributes
 		name="Multiplayer";
 		class Attribute0
 		{
-			property="RespawnButton";
-			expression="true";
-			class Value
-			{
-				class data
-				{
-					class type
-					{
-						type[]=
-						{
-							"SCALAR"
-						};
-					};
-					value=1;
-				};
-			};
-		};
-		class Attribute1
-		{
 			property="RespawnTemplates";
 			expression="true";
 			class Value
@@ -670,7 +651,83 @@ class CustomAttributes
 				};
 			};
 		};
+		class Attribute1
+		{
+			property="ReviveMode";
+			expression="false";
+			class Value
+			{
+				class data
+				{
+					class type
+					{
+						type[]=
+						{
+							"SCALAR"
+						};
+					};
+					value=1;
+				};
+			};
+		};
 		class Attribute2
+		{
+			property="ReviveBleedOutDelay";
+			expression="false";
+			class Value
+			{
+				class data
+				{
+					class type
+					{
+						type[]=
+						{
+							"SCALAR"
+						};
+					};
+					value=300;
+				};
+			};
+		};
+		class Attribute3
+		{
+			property="ReviveMedicSpeedMultiplier";
+			expression="false";
+			class Value
+			{
+				class data
+				{
+					class type
+					{
+						type[]=
+						{
+							"SCALAR"
+						};
+					};
+					value=3;
+				};
+			};
+		};
+		class Attribute4
+		{
+			property="RespawnButton";
+			expression="true";
+			class Value
+			{
+				class data
+				{
+					class type
+					{
+						type[]=
+						{
+							"SCALAR"
+						};
+					};
+					value=1;
+				};
+			};
+		};
+		class Attribute5
 		{
 			property="SharedObjectives";
 			expression="if (isMultiplayer) then {[_value] spawn bis_fnc_sharedObjectives;};";
@@ -689,7 +746,64 @@ class CustomAttributes
 				};
 			};
 		};
-		nAttributes=3;
+		class Attribute6
+		{
+			property="ReviveDelay";
+			expression="false";
+			class Value
+			{
+				class data
+				{
+					class type
+					{
+						type[]=
+						{
+							"SCALAR"
+						};
+					};
+					value=30.653206;
+				};
+			};
+		};
+		class Attribute7
+		{
+			property="ReviveUnconsciousStateMode";
+			expression="false";
+			class Value
+			{
+				class data
+				{
+					class type
+					{
+						type[]=
+						{
+							"SCALAR"
+						};
+					};
+					value=2;
+				};
+			};
+		};
+		class Attribute8
+		{
+			property="ReviveRequiredItems";
+			expression="false";
+			class Value
+			{
+				class data
+				{
+					class type
+					{
+						type[]=
+						{
+							"SCALAR"
+						};
+					};
+					value=2;
+				};
+			};
+		};
+		nAttributes=9;
 	};
 	class Category5
 	{
@@ -35105,7 +35219,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={11000.773,5.0014391,9960.5303};
+						position[]={10984.254,5.0014391,9952.1416};
 					};
 					side="West";
 					flags=4;
