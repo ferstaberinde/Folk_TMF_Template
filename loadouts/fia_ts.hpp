@@ -53,12 +53,11 @@ class r : baseMan
     displayName = "Rifleman";
     vest[] = {"rhsgref_otv_khaki"};
     backpack[] = {"B_AssaultPack_rgr"};
-    primaryWeapon[] = {"rhs_weap_m4_carryhandle"};
+    primaryWeapon[] = {"mbg_m16a1"};
     scope[] = {};
     magazines[] =
     {
-        LIST_8("rhs_mag_30Rnd_556x45_Mk318_Stanag"),
-        LIST_2("rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Green"),
+        LIST_11("mbg_mag_20Rnd_556x45_M855A1_Stanag"),
         LIST_2("rhs_mag_m67"),
         LIST_2("rhs_mag_an_m8hc")
     };
@@ -71,8 +70,12 @@ class g : r
 {
     displayName = "Grenadier";
     primaryWeapon[] = {"rhs_weap_m4a1_carryhandle_m203"};
-    magazines[] +=
+    magazines[] =
     {
+        LIST_8("rhs_mag_30Rnd_556x45_Mk318_Stanag"),
+        LIST_2("rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Green"),
+        LIST_2("rhs_mag_m67"),
+        LIST_2("rhs_mag_an_m8hc"),
         LIST_8("rhs_mag_M433_HEDP"),
         LIST_4("rhs_mag_m714_White")
     };
@@ -84,6 +87,11 @@ class car : r
 class m : car 
 {
     displayName = "Medic";
+    backpackItems[] = {
+        "Medikit",
+        LIST_7("FirstAidKit"),
+        LIST_2("rhs_mag_rdg2_white")
+    };
 };
 class smg : r
 {
