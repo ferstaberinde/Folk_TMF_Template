@@ -8,7 +8,7 @@ class baseMan {// Weaponless baseclass
     vest[] = {};
     backpack[] = {};
     headgear[] = {
-        "H_Bandanna_khk"
+        "H_Watchcap_blk"
     };
     goggles[] = {"default"};
     hmd[] = {};
@@ -100,7 +100,6 @@ class smg : r
 class ftl : g
 {
     displayName = "Fireteam Leader";
-    headgear[] = {"H_Bandanna_khk_hs"};
     magazines[] +=
     {
         LIST_2("rhs_mag_m715_Green")
@@ -133,7 +132,6 @@ class co : sl
 class fac : co
 {
     displayName = "Forward Air Controller";
-    headgear[] = {"H_Bandanna_khk_hs"};
 };
 class ar : r
 {
