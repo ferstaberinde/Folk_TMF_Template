@@ -10,6 +10,10 @@ class CfgLoadouts
         displayName = "USMC (Desert)";
         #include "usmc_d.hpp"
     };
+    class US_WD {
+        displayName = "US Army (Woodland)";
+        #include "us_wd.hpp"
+    };
     class FIA_TS {
         displayName = "FIA (Tiger Stripe)";
         #include "fia_ts.hpp"
