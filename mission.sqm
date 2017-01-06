@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={10992.845,21.491302,9931.5146};
-		dir[]={0.74051493,-0.50468504,-0.44400591};
-		up[]={0.43285227,0.86327863,-0.25953284};
-		aside[]={-0.51427776,4.0890882e-008,-0.85772538};
+		pos[]={10684.604,23.907797,9982.4463};
+		dir[]={0.0094693825,-0.34431678,-0.93894076};
+		up[]={0.003474602,0.93880707,-0.34434336};
+		aside[]={-1.000034,1.5555452e-006,-0.010089295};
 	};
 };
 binarizationWanted=0;
@@ -867,7 +867,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="usmc";
+									value="usmc_d";
 								};
 							};
 						};
@@ -962,7 +962,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="[""co"",""usmc"",true]";
+									value="[""co"",""usmc_d"",true]";
 								};
 							};
 						};
@@ -1026,7 +1026,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="[""m"",""usmc"",true]";
+									value="[""m"",""usmc_d"",true]";
 								};
 							};
 						};
@@ -1121,7 +1121,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="usmc";
+									value="usmc_d";
 								};
 							};
 						};
@@ -1166,7 +1166,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="[""UAV"",""usmc"",true]";
+									value="[""UAV"",""usmc_d"",true]";
 								};
 							};
 						};
@@ -1261,7 +1261,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="usmc";
+									value="usmc_d";
 								};
 							};
 						};
@@ -1305,7 +1305,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="[""r"",""usmc"",true]";
+									value="[""r"",""usmc_d"",true]";
 								};
 							};
 						};
@@ -1381,7 +1381,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="usmc";
+									value="usmc_d";
 								};
 							};
 						};
@@ -1426,7 +1426,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="[""fac"",""usmc"",true]";
+									value="[""fac"",""usmc_d"",true]";
 								};
 							};
 						};
@@ -1521,7 +1521,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="usmc";
+									value="usmc_d";
 								};
 							};
 						};
@@ -1679,7 +1679,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="usmc";
+									value="usmc_d";
 								};
 							};
 						};
@@ -1755,7 +1755,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="[""sl"",""usmc"",true]";
+									value="[""sl"",""usmc_d"",true]";
 								};
 							};
 						};
@@ -1819,7 +1819,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="[""m"",""usmc"",true]";
+									value="[""m"",""usmc_d"",true]";
 								};
 							};
 						};
@@ -1914,7 +1914,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="usmc";
+									value="usmc_d";
 								};
 							};
 						};
@@ -2091,7 +2091,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="usmc";
+									value="usmc_d";
 								};
 							};
 						};
@@ -2186,7 +2186,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="[""ftl"",""usmc"",true]";
+									value="[""ftl"",""usmc_d"",true]";
 								};
 							};
 						};
@@ -2268,7 +2268,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="usmc";
+									value="usmc_d";
 								};
 							};
 						};
@@ -2363,7 +2363,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="[""ar"",""usmc"",true]";
+									value="[""ar"",""usmc_d"",true]";
 								};
 							};
 						};
@@ -2445,7 +2445,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="usmc";
+									value="usmc_d";
 								};
 							};
 						};
@@ -2540,7 +2540,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="[""ar"",""usmc"",true]";
+									value="[""ar"",""usmc_d"",true]";
 								};
 							};
 						};
@@ -2622,7 +2622,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="usmc";
+									value="usmc_d";
 								};
 							};
 						};
@@ -2717,7 +2717,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="[""rat"",""usmc"",true]";
+									value="[""rat"",""usmc_d"",true]";
 								};
 							};
 						};
@@ -2799,7 +2799,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="usmc";
+									value="usmc_d";
 								};
 							};
 						};
@@ -2894,7 +2894,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="[""r"",""usmc"",true]";
+									value="[""r"",""usmc_d"",true]";
 								};
 							};
 						};
@@ -2957,7 +2957,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="usmc";
+									value="usmc_d";
 								};
 							};
 						};
@@ -3052,7 +3052,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="[""r"",""usmc"",true]";
+									value="[""r"",""usmc_d"",true]";
 								};
 							};
 						};
@@ -3229,7 +3229,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="usmc";
+									value="usmc_d";
 								};
 							};
 						};
@@ -3324,7 +3324,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="[""ftl"",""usmc"",true]";
+									value="[""ftl"",""usmc_d"",true]";
 								};
 							};
 						};
@@ -3406,7 +3406,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="usmc";
+									value="usmc_d";
 								};
 							};
 						};
@@ -3501,7 +3501,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="[""ar"",""usmc"",true]";
+									value="[""ar"",""usmc_d"",true]";
 								};
 							};
 						};
@@ -3582,7 +3582,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="usmc";
+									value="usmc_d";
 								};
 							};
 						};
@@ -3677,7 +3677,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="[""ar"",""usmc"",true]";
+									value="[""ar"",""usmc_d"",true]";
 								};
 							};
 						};
@@ -3759,7 +3759,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="usmc";
+									value="usmc_d";
 								};
 							};
 						};
@@ -3854,7 +3854,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="[""rat"",""usmc"",true]";
+									value="[""rat"",""usmc_d"",true]";
 								};
 							};
 						};
@@ -3936,7 +3936,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="usmc";
+									value="usmc_d";
 								};
 							};
 						};
@@ -4031,7 +4031,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="[""r"",""usmc"",true]";
+									value="[""r"",""usmc_d"",true]";
 								};
 							};
 						};
@@ -4094,7 +4094,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="usmc";
+									value="usmc_d";
 								};
 							};
 						};
@@ -4189,7 +4189,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="[""r"",""usmc"",true]";
+									value="[""r"",""usmc_d"",true]";
 								};
 							};
 						};
@@ -4347,7 +4347,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="[""pp"",""usmc"",true]";
+									value="[""pp"",""usmc_d"",true]";
 								};
 							};
 						};
@@ -4423,7 +4423,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="usmc";
+									value="usmc_d";
 								};
 							};
 						};
@@ -4468,7 +4468,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="[""pp"",""usmc"",true]";
+									value="[""pp"",""usmc_d"",true]";
 								};
 							};
 						};
@@ -4544,7 +4544,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="usmc";
+									value="usmc_d";
 								};
 							};
 						};
@@ -4588,7 +4588,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="[""pcc"",""usmc"",true]";
+									value="[""pcc"",""usmc_d"",true]";
 								};
 							};
 						};
@@ -4683,7 +4683,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="usmc";
+									value="usmc_d";
 								};
 							};
 						};
@@ -4728,7 +4728,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="[""pc"",""usmc"",true]";
+									value="[""pc"",""usmc_d"",true]";
 								};
 							};
 						};
@@ -4823,7 +4823,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="usmc";
+									value="usmc_d";
 								};
 							};
 						};
@@ -12591,7 +12591,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="[""pp"",""usmc"",true]";
+									value="[""pp"",""usmc_d"",true]";
 								};
 							};
 						};
@@ -12686,7 +12686,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="usmc";
+									value="usmc_d";
 								};
 							};
 						};
@@ -12731,7 +12731,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="[""pp"",""usmc"",true]";
+									value="[""pp"",""usmc_d"",true]";
 								};
 							};
 						};
@@ -12807,7 +12807,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="usmc";
+									value="usmc_d";
 								};
 							};
 						};
@@ -12851,7 +12851,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="[""pcc"",""usmc"",true]";
+									value="[""pcc"",""usmc_d"",true]";
 								};
 							};
 						};
@@ -12927,7 +12927,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="usmc";
+									value="usmc_d";
 								};
 							};
 						};
@@ -12972,7 +12972,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="[""pc"",""usmc"",true]";
+									value="[""pc"",""usmc_d"",true]";
 								};
 							};
 						};
@@ -13048,7 +13048,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="usmc";
+									value="usmc_d";
 								};
 							};
 						};
@@ -13204,7 +13204,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="usmc";
+									value="usmc_d";
 								};
 							};
 						};
@@ -13280,7 +13280,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="[""vc"",""usmc"",true]";
+									value="[""vc"",""usmc_d"",true]";
 								};
 							};
 						};
@@ -13363,7 +13363,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="usmc";
+									value="usmc_d";
 								};
 							};
 						};
@@ -13439,7 +13439,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="[""vg"",""usmc"",true]";
+									value="[""vg"",""usmc_d"",true]";
 								};
 							};
 						};
@@ -13520,7 +13520,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="usmc";
+									value="usmc_d";
 								};
 							};
 						};
@@ -13596,7 +13596,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="[""vd"",""usmc"",true]";
+									value="[""vd"",""usmc_d"",true]";
 								};
 							};
 						};
@@ -13772,7 +13772,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="[""vc"",""usmc"",true]";
+									value="[""vc"",""usmc_d"",true]";
 								};
 							};
 						};
@@ -13867,7 +13867,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="usmc";
+									value="usmc_d";
 								};
 							};
 						};
@@ -13912,7 +13912,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="[""vg"",""usmc"",true]";
+									value="[""vg"",""usmc_d"",true]";
 								};
 							};
 						};
@@ -14007,7 +14007,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="usmc";
+									value="usmc_d";
 								};
 							};
 						};
@@ -14051,7 +14051,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="[""vc"",""usmc"",true]";
+									value="[""vc"",""usmc_d"",true]";
 								};
 							};
 						};
@@ -14146,7 +14146,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="usmc";
+									value="usmc_d";
 								};
 							};
 						};
@@ -14285,7 +14285,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="[""pp"",""usmc"",true]";
+									value="[""pp"",""usmc_d"",true]";
 								};
 							};
 						};
@@ -14380,7 +14380,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="usmc";
+									value="usmc_d";
 								};
 							};
 						};
@@ -14425,7 +14425,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="[""pcc"",""usmc"",true]";
+									value="[""pcc"",""usmc_d"",true]";
 								};
 							};
 						};
@@ -14520,7 +14520,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="usmc";
+									value="usmc_d";
 								};
 							};
 						};
@@ -28366,7 +28366,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="[""mmgag"",""usmc"",true]";
+									value="[""mmgag"",""usmc_d"",true]";
 								};
 							};
 						};
@@ -28461,7 +28461,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="usmc";
+									value="usmc_d";
 								};
 							};
 						};
@@ -28505,7 +28505,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="[""mmgg"",""usmc"",true]";
+									value="[""mmgg"",""usmc_d"",true]";
 								};
 							};
 						};
@@ -28600,7 +28600,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="usmc";
+									value="usmc_d";
 								};
 							};
 						};
@@ -28642,7 +28642,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="[""mmgac"",""usmc"",true]";
+									value="[""mmgac"",""usmc_d"",true]";
 								};
 							};
 						};
@@ -28718,7 +28718,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="usmc";
+									value="usmc_d";
 								};
 							};
 						};
@@ -28876,7 +28876,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="[""mmgag"",""usmc"",true]";
+									value="[""mmgag"",""usmc_d"",true]";
 								};
 							};
 						};
@@ -28971,7 +28971,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="usmc";
+									value="usmc_d";
 								};
 							};
 						};
@@ -29014,7 +29014,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="[""mmgg"",""usmc"",true]";
+									value="[""mmgg"",""usmc_d"",true]";
 								};
 							};
 						};
@@ -29109,7 +29109,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="usmc";
+									value="usmc_d";
 								};
 							};
 						};
@@ -29151,7 +29151,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="[""mmgac"",""usmc"",true]";
+									value="[""mmgac"",""usmc_d"",true]";
 								};
 							};
 						};
@@ -29227,7 +29227,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="usmc";
+									value="usmc_d";
 								};
 							};
 						};
@@ -29385,7 +29385,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="[""hmgag"",""usmc"",true]";
+									value="[""hmgag"",""usmc_d"",true]";
 								};
 							};
 						};
@@ -29480,7 +29480,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="usmc";
+									value="usmc_d";
 								};
 							};
 						};
@@ -29523,7 +29523,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="[""hmgg"",""usmc"",true]";
+									value="[""hmgg"",""usmc_d"",true]";
 								};
 							};
 						};
@@ -29618,7 +29618,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="usmc";
+									value="usmc_d";
 								};
 							};
 						};
@@ -29660,7 +29660,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="[""hmgac"",""usmc"",true]";
+									value="[""hmgac"",""usmc_d"",true]";
 								};
 							};
 						};
@@ -29736,7 +29736,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="usmc";
+									value="usmc_d";
 								};
 							};
 						};
@@ -29874,7 +29874,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="[""matag"",""usmc"",true]";
+									value="[""matag"",""usmc_d"",true]";
 								};
 							};
 						};
@@ -29969,7 +29969,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="usmc";
+									value="usmc_d";
 								};
 							};
 						};
@@ -30013,7 +30013,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="[""matg"",""usmc"",true]";
+									value="[""matg"",""usmc_d"",true]";
 								};
 							};
 						};
@@ -30108,7 +30108,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="usmc";
+									value="usmc_d";
 								};
 							};
 						};
@@ -30149,7 +30149,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="[""matac"",""usmc"",true]";
+									value="[""matac"",""usmc_d"",true]";
 								};
 							};
 						};
@@ -30225,7 +30225,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="usmc";
+									value="usmc_d";
 								};
 							};
 						};
@@ -30382,7 +30382,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="[""matag"",""usmc"",true]";
+									value="[""matag"",""usmc_d"",true]";
 								};
 							};
 						};
@@ -30477,7 +30477,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="usmc";
+									value="usmc_d";
 								};
 							};
 						};
@@ -30522,7 +30522,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="[""matg"",""usmc"",true]";
+									value="[""matg"",""usmc_d"",true]";
 								};
 							};
 						};
@@ -30617,7 +30617,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="usmc";
+									value="usmc_d";
 								};
 							};
 						};
@@ -30658,7 +30658,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="[""matac"",""usmc"",true]";
+									value="[""matac"",""usmc_d"",true]";
 								};
 							};
 						};
@@ -30734,7 +30734,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="usmc";
+									value="usmc_d";
 								};
 							};
 						};
@@ -30892,7 +30892,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="[""hatag"",""usmc"",true]";
+									value="[""hatag"",""usmc_d"",true]";
 								};
 							};
 						};
@@ -30987,7 +30987,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="usmc";
+									value="usmc_d";
 								};
 							};
 						};
@@ -31032,7 +31032,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="[""hatg"",""usmc"",true]";
+									value="[""hatg"",""usmc_d"",true]";
 								};
 							};
 						};
@@ -31127,7 +31127,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="usmc";
+									value="usmc_d";
 								};
 							};
 						};
@@ -31169,7 +31169,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="[""hatac"",""usmc"",true]";
+									value="[""hatac"",""usmc_d"",true]";
 								};
 							};
 						};
@@ -31245,7 +31245,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="usmc";
+									value="usmc_d";
 								};
 							};
 						};
@@ -31384,7 +31384,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="[""mtrag"",""usmc"",true]";
+									value="[""mtrag"",""usmc_d"",true]";
 								};
 							};
 						};
@@ -31479,7 +31479,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="usmc";
+									value="usmc_d";
 								};
 							};
 						};
@@ -31524,7 +31524,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="[""mtrg"",""usmc"",true]";
+									value="[""mtrg"",""usmc_d"",true]";
 								};
 							};
 						};
@@ -31619,7 +31619,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="usmc";
+									value="usmc_d";
 								};
 							};
 						};
@@ -31664,7 +31664,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="[""mtrac"",""usmc"",true]";
+									value="[""mtrac"",""usmc_d"",true]";
 								};
 							};
 						};
@@ -31759,7 +31759,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="usmc";
+									value="usmc_d";
 								};
 							};
 						};
@@ -31898,7 +31898,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="[""samag"",""usmc"",true]";
+									value="[""samag"",""usmc_d"",true]";
 								};
 							};
 						};
@@ -31993,7 +31993,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="usmc";
+									value="usmc_d";
 								};
 							};
 						};
@@ -32038,7 +32038,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="[""samg"",""usmc"",true]";
+									value="[""samg"",""usmc_d"",true]";
 								};
 							};
 						};
@@ -32133,7 +32133,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="usmc";
+									value="usmc_d";
 								};
 							};
 						};
@@ -32272,7 +32272,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="[""sp"",""usmc"",true]";
+									value="[""sp"",""usmc_d"",true]";
 								};
 							};
 						};
@@ -32367,7 +32367,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="usmc";
+									value="usmc_d";
 								};
 							};
 						};
@@ -32411,7 +32411,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="[""sn"",""usmc"",true]";
+									value="[""sn"",""usmc_d"",true]";
 								};
 							};
 						};
@@ -32506,7 +32506,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="usmc";
+									value="usmc_d";
 								};
 							};
 						};
@@ -32645,7 +32645,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="[""eng"",""usmc"",true]";
+									value="[""eng"",""usmc_d"",true]";
 								};
 							};
 						};
@@ -32740,7 +32740,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="usmc";
+									value="usmc_d";
 								};
 							};
 						};
@@ -32784,7 +32784,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="[""eng"",""usmc"",true]";
+									value="[""eng"",""usmc_d"",true]";
 								};
 							};
 						};
@@ -32879,7 +32879,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="usmc";
+									value="usmc_d";
 								};
 							};
 						};
@@ -32923,7 +32923,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="[""eng"",""usmc"",true]";
+									value="[""eng"",""usmc_d"",true]";
 								};
 							};
 						};
@@ -33018,7 +33018,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="usmc";
+									value="usmc_d";
 								};
 							};
 						};
@@ -33062,7 +33062,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="[""pc"",""usmc"",true]";
+									value="[""pc"",""usmc_d"",true]";
 								};
 							};
 						};
@@ -33157,7 +33157,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="usmc";
+									value="usmc_d";
 								};
 							};
 						};
@@ -33296,7 +33296,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="[""jp"",""usmc"",true]";
+									value="[""jp"",""usmc_d"",true]";
 								};
 							};
 						};
@@ -33391,7 +33391,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="usmc";
+									value="usmc_d";
 								};
 							};
 						};
@@ -41111,7 +41111,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="usmc";
+									value="usmc_d";
 								};
 							};
 						};
@@ -41187,7 +41187,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="[""sl"",""usmc"",true]";
+									value="[""sl"",""usmc_d"",true]";
 								};
 							};
 						};
@@ -41250,7 +41250,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="[""m"",""usmc"",true]";
+									value="[""m"",""usmc_d"",true]";
 								};
 							};
 						};
@@ -41345,7 +41345,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="usmc";
+									value="usmc_d";
 								};
 							};
 						};
@@ -42895,8 +42895,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={10667.43,31.512867,9842.168};
-				angles[]={0.10494626,0,0.038647637};
+				position[]={10667.43,31.512772,9842.168};
+				angles[]={0.10494665,0,0.038641591};
 			};
 			side="Empty";
 			flags=4;
@@ -42907,48 +42907,10 @@ class Mission
 			};
 			id=805;
 			type="rhsusf_m1a1fep_wd";
-			atlOffset=-0.016904831;
+			atlOffset=-0.017000198;
 			class CustomAttributes
 			{
 				class Attribute0
-				{
-					property="rhs_ammoslot_2_type";
-					expression="_this setVariable ['rhs_ammoslot_2_type', _value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="rhs_mag_M829A3";
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="TMF_assignGear_full";
-					expression="[_this,_value] call tmf_assignGear_fnc_helper;";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="[""r"",""usmc"",false]";
-						};
-					};
-				};
-				class Attribute2
 				{
 					property="rhs_decalPlatoon_type";
 					expression="_this setVariable ['rhs_decalPlatoon_type', _value];";
@@ -42967,7 +42929,7 @@ class Mission
 						};
 					};
 				};
-				class Attribute3
+				class Attribute1
 				{
 					property="rhs_ammoslot_1_type";
 					expression="_this setVariable ['rhs_ammoslot_1_type', _value];";
@@ -42986,7 +42948,83 @@ class Mission
 						};
 					};
 				};
+				class Attribute2
+				{
+					property="rhs_ammoslot_2_type";
+					expression="_this setVariable ['rhs_ammoslot_2_type', _value];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="rhs_mag_M830";
+						};
+					};
+				};
+				class Attribute3
+				{
+					property="rhs_hideDUKE";
+					expression="_this animate ['DUKE_Hide',_value,true];if(_value isEqualTo 1)then{_this removeWeaponTurret ['rhsusf_weap_duke',[0,0]]};";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=0;
+						};
+					};
+				};
 				class Attribute4
+				{
+					property="rhs_ammoslot_3_type";
+					expression="_this setVariable ['rhs_ammoslot_3_type', _value];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="rhs_mag_M1069";
+						};
+					};
+				};
+				class Attribute5
+				{
+					property="TMF_assignGear_full";
+					expression="[_this,_value] call tmf_assignGear_fnc_helper;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="[""r"",""usmc"",false]";
+						};
+					};
+				};
+				class Attribute6
 				{
 					property="rhs_decalBarrel_type";
 					expression="_this setVariable ['rhs_decalBarrel_type', _value];";
@@ -43005,26 +43043,7 @@ class Mission
 						};
 					};
 				};
-				class Attribute5
-				{
-					property="rhs_ammoslot_3_type";
-					expression="_this setVariable ['rhs_ammoslot_3_type', _value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="rhs_mag_M829A3";
-						};
-					};
-				};
-				nAttributes=6;
+				nAttributes=7;
 			};
 		};
 		class Item90

@@ -2,9 +2,13 @@
 
 class CfgLoadouts
 {
-    class USMC {
-        displayName = "USMC";
-        #include "usmc.hpp"
+    class USMC_WD {
+        displayName = "USMC (Woodland)";
+        #include "usmc_wd.hpp"
+    };
+    class USMC_D {
+        displayName = "USMC (Desert)";
+        #include "usmc_d.hpp"
     };
     class FIA_TS {
         displayName = "FIA (Tiger Stripe)";
