@@ -8,7 +8,7 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=822;
+		nextID=827;
 	};
 	class MarkerIDProvider
 	{
@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={4113.4277,54.58696,4430.1318};
-		dir[]={-0.12593609,-0.29138592,-0.94841194};
-		up[]={-0.038365275,0.95646161,-0.28893355};
-		aside[]={-0.99139225,1.3396493e-007,0.13163576};
+		pos[]={3643.7324,64.3181,4538.5981};
+		dir[]={0.741835,-0.24188896,-0.62563384};
+		up[]={0.18499802,0.97011626,-0.15602066};
+		aside[]={-0.64475876,-3.8321014e-007,-0.76449841};
 	};
 };
 binarizationWanted=0;
@@ -598,7 +598,7 @@ class CustomAttributes
 		};
 		nAttributes=6;
 	};
-	class Category5
+	class Category4
 	{
 		name="Multiplayer";
 		class Attribute0
@@ -805,7 +805,7 @@ class CustomAttributes
 		};
 		nAttributes=9;
 	};
-	class Category6
+	class Category5
 	{
 		name="Scenario";
 		class Attribute0
@@ -5004,7 +5004,7 @@ class Mission
 						rank="LIEUTENANT";
 						lock="UNLOCKED";
 						name="UnitCSAT_CO";
-						description="CSAT Commander";
+						description="VDV Commander";
 						isPlayable=1;
 					};
 					id=158;
@@ -5142,7 +5142,7 @@ class Mission
 						skill=0.60000002;
 						rank="CORPORAL";
 						name="UnitCSAT_CO_M";
-						description="CSAT Medic";
+						description="VDV Medic";
 						isPlayable=1;
 					};
 					id=159;
@@ -5280,7 +5280,7 @@ class Mission
 						skill=0.60000002;
 						rank="CORPORAL";
 						name="UnitCSAT_CO_UAV";
-						description="CSAT UAV Operator";
+						description="VDV UAV Operator";
 						isPlayable=1;
 					};
 					id=160;
@@ -5417,7 +5417,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="UnitCSAT_CO_D";
-						description="CSAT Driver ";
+						description="VDV Driver ";
 						isPlayable=1;
 					};
 					id=161;
@@ -5535,7 +5535,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="UnitCSAT_CO_FAC";
-						description="CSAT FAC";
+						description="VDV FAC";
 						isPlayable=1;
 					};
 					id=162;
@@ -5738,7 +5738,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="CSAT CO";
+							value="VDV CO";
 						};
 					};
 				};
@@ -5786,7 +5786,7 @@ class Mission
 						rank="SERGEANT";
 						lock="UNLOCKED";
 						name="UnitCSAT_ASL_SL";
-						description="CSAT Alpha Squad Leader";
+						description="VDV Alpha Squad Leader";
 						isPlayable=1;
 					};
 					id=169;
@@ -5925,7 +5925,7 @@ class Mission
 						rank="CORPORAL";
 						lock="UNLOCKED";
 						name="UnitCSAT_ASL_M";
-						description="CSAT Alpha Medic";
+						description="VDV Alpha Medic";
 						isPlayable=1;
 					};
 					id=170;
@@ -6109,7 +6109,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="CSAT ASL";
+							value="VDV ASL";
 						};
 					};
 				};
@@ -6176,7 +6176,7 @@ class Mission
 						rank="CORPORAL";
 						lock="UNLOCKED";
 						name="UnitCSAT_A1_FTL";
-						description="CSAT Alpha 1 Fireteam Leader";
+						description="VDV Alpha 1 Fireteam Leader";
 						isPlayable=1;
 					};
 					id=172;
@@ -6352,7 +6352,7 @@ class Mission
 						skill=0.60000002;
 						lock="UNLOCKED";
 						name="UnitCSAT_A1_AR";
-						description="CSAT Alpha 1 Automatic Rifleman";
+						description="VDV Alpha 1 Automatic Rifleman";
 						isPlayable=1;
 					};
 					id=173;
@@ -6528,7 +6528,7 @@ class Mission
 						skill=0.60000002;
 						lock="UNLOCKED";
 						name="UnitCSAT_A1_AR1";
-						description="CSAT Alpha 1 Automatic Rifleman";
+						description="VDV Alpha 1 Automatic Rifleman";
 						isPlayable=1;
 					};
 					id=174;
@@ -6704,7 +6704,7 @@ class Mission
 						skill=0.60000002;
 						lock="UNLOCKED";
 						name="UnitCSAT_A1_AT";
-						description="CSAT Alpha 1 Assaultman (AT)";
+						description="VDV Alpha 1 Assaultman (AT)";
 						isPlayable=1;
 					};
 					id=175;
@@ -6880,7 +6880,7 @@ class Mission
 						skill=0.60000002;
 						lock="UNLOCKED";
 						name="UnitCSAT_A1_R1";
-						description="CSAT Alpha 1 Rifleman";
+						description="VDV Alpha 1 Rifleman";
 						isPlayable=1;
 					};
 					id=176;
@@ -6999,7 +6999,7 @@ class Mission
 						skill=0.60000002;
 						lock="UNLOCKED";
 						name="UnitCSAT_A1_R2";
-						description="CSAT Alpha 1 Rifleman";
+						description="VDV Alpha 1 Rifleman";
 						isPlayable=1;
 					};
 					id=177;
@@ -7202,7 +7202,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="CSAT A1";
+							value="VDV A1";
 						};
 					};
 				};
@@ -7269,7 +7269,7 @@ class Mission
 						rank="CORPORAL";
 						lock="UNLOCKED";
 						name="UnitCSAT_A2_FTL";
-						description="CSAT Alpha 2 Fireteam Leader";
+						description="VDV Alpha 2 Fireteam Leader";
 						isPlayable=1;
 					};
 					id=179;
@@ -7445,7 +7445,7 @@ class Mission
 						skill=0.60000002;
 						lock="UNLOCKED";
 						name="UnitCSAT_A2_AR";
-						description="CSAT Alpha 2 Automatic Rifleman";
+						description="VDV Alpha 2 Automatic Rifleman";
 						isPlayable=1;
 					};
 					id=180;
@@ -7621,7 +7621,7 @@ class Mission
 						skill=0.60000002;
 						lock="UNLOCKED";
 						name="UnitCSAT_A2_AR2";
-						description="CSAT Alpha 2 Automatic Rifleman";
+						description="VDV Alpha 2 Automatic Rifleman";
 						isPlayable=1;
 					};
 					id=181;
@@ -7797,7 +7797,7 @@ class Mission
 						skill=0.60000002;
 						lock="UNLOCKED";
 						name="UnitCSAT_A2_AT";
-						description="CSAT Alpha 2 Assaultman (AT)";
+						description="VDV Alpha 2 Assaultman (AT)";
 						isPlayable=1;
 					};
 					id=182;
@@ -7973,7 +7973,7 @@ class Mission
 						skill=0.60000002;
 						lock="UNLOCKED";
 						name="UnitCSAT_A2_R1";
-						description="CSAT Alpha 2 Rifleman";
+						description="VDV Alpha 2 Rifleman";
 						isPlayable=1;
 					};
 					id=183;
@@ -8130,7 +8130,7 @@ class Mission
 						skill=0.60000002;
 						lock="UNLOCKED";
 						name="UnitCSAT_A2_R2";
-						description="CSAT Alpha 2 Rifleman";
+						description="VDV Alpha 2 Rifleman";
 						isPlayable=1;
 					};
 					id=184;
@@ -8333,7 +8333,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="CSAT A2";
+							value="VDV A2";
 						};
 					};
 				};
@@ -8384,7 +8384,7 @@ class Mission
 			side="East";
 			class Entities
 			{
-				items=3;
+				items=4;
 				class Item0
 				{
 					dataType="Object";
@@ -8399,7 +8399,7 @@ class Mission
 						skill=0.60000002;
 						rank="CAPTAIN";
 						name="UnitCSAT_TH1_P";
-						description="CSAT Transport Helo 1 Pilot";
+						description="VDV Transport Helo 1 Pilot";
 						isPlayable=1;
 					};
 					id=220;
@@ -8518,7 +8518,7 @@ class Mission
 						skill=0.60000002;
 						rank="LIEUTENANT";
 						name="UnitCSAT_TH1_CP";
-						description="CSAT Transport Helo 1 Co-Pilot (Repair)";
+						description="VDV Transport Helo 1 Co-Pilot (Repair)";
 						isPlayable=1;
 					};
 					id=221;
@@ -8637,7 +8637,7 @@ class Mission
 						skill=0.60000002;
 						rank="SERGEANT";
 						name="UnitCSAT_TH1_LM";
-						description="CSAT Transport Helo 1 Loadmaster";
+						description="VDV Transport Helo 1 Loadmaster";
 						isPlayable=1;
 					};
 					id=222;
@@ -8742,6 +8742,163 @@ class Mission
 						nAttributes=5;
 					};
 				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3739.855,5.0014391,4414.1221};
+					};
+					side="East";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						rank="SERGEANT";
+						name="UnitCSAT_TH1_G";
+						description="VDV Transport Helo 1 Gunner";
+						isPlayable=1;
+					};
+					id=823;
+					type="O_helicrew_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="TMF_SpecialistMarker";
+							expression="_this setVariable ['TMF_SpecialistMarker',_value,true];";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="["""",""""]";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="TMF_assignGear_faction";
+							expression="false";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="vdv_emr";
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="TMF_assignGear_enabled";
+							expression="false";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=1;
+								};
+							};
+						};
+						class Attribute3
+						{
+							property="TMF_Channellist";
+							expression="_this setVariable ['TMF_Channellist',_value,true];";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="[]";
+								};
+							};
+						};
+						class Attribute4
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.94999999;
+								};
+							};
+						};
+						class Attribute5
+						{
+							property="TMF_assignGear_full";
+							expression="[_this,_value] call tmf_assignGear_fnc_helper;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="[""pc"",""vdv_emr"",true]";
+								};
+							};
+						};
+						class Attribute6
+						{
+							property="TMF_assignGear_role";
+							expression="false";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="pc";
+								};
+							};
+						};
+						nAttributes=7;
+					};
+				};
 			};
 			class Attributes
 			{
@@ -8802,7 +8959,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="CSAT TH1";
+							value="VDV TH1";
 						};
 					};
 				};
@@ -8849,7 +9006,7 @@ class Mission
 						skill=0.60000002;
 						rank="LIEUTENANT";
 						name="UnitAAF_CO";
-						description="AAF Commander";
+						description="UN Commander";
 						isPlayable=1;
 					};
 					id=224;
@@ -8986,7 +9143,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="UnitAAF_CO_M";
-						description="AAF Medic";
+						description="UN Medic";
 						isPlayable=1;
 					};
 					id=225;
@@ -9123,7 +9280,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="UnitAAF_CO_UAV";
-						description="AAF UAV Operator";
+						description="UN UAV Operator";
 						isPlayable=1;
 					};
 					id=226;
@@ -9260,7 +9417,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="UnitAAF_CO_D";
-						description="AAF Driver";
+						description="UN Driver";
 						isPlayable=1;
 					};
 					id=227;
@@ -9378,7 +9535,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="UnitAAF_CO_FAC";
-						description="AAF FAC";
+						description="UN FAC";
 						isPlayable=1;
 					};
 					id=228;
@@ -9562,7 +9719,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="AAF CO";
+							value="UN CO";
 						};
 					};
 				};
@@ -9609,7 +9766,7 @@ class Mission
 						skill=0.60000002;
 						rank="SERGEANT";
 						name="UnitAAF_ASL_SL";
-						description="AAF Alpha Squad Leader";
+						description="UN Alpha Squad Leader";
 						isPlayable=1;
 					};
 					id=235;
@@ -9746,7 +9903,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="UnitAAF_ASL_M";
-						description="AAF Alpha Medic";
+						description="UN Alpha Medic";
 						isPlayable=1;
 					};
 					id=236;
@@ -9930,7 +10087,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="AAF ASL";
+							value="UN ASL";
 						};
 					};
 				};
@@ -9996,7 +10153,7 @@ class Mission
 						skill=0.60000002;
 						rank="CORPORAL";
 						name="UnitAAF_A1_FTL";
-						description="AAF Alpha 1 Fireteam Leader";
+						description="UN Alpha 1 Fireteam Leader";
 						isPlayable=1;
 					};
 					id=238;
@@ -10171,7 +10328,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="UnitAAF_A1_AR1";
-						description="AAF Alpha 1 Automatic Rifleman";
+						description="UN Alpha 1 Automatic Rifleman";
 						isPlayable=1;
 					};
 					id=239;
@@ -10346,7 +10503,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="UnitAAF_A1_AR2";
-						description="AAF Alpha 1 Automatic Rifleman";
+						description="UN Alpha 1 Automatic Rifleman";
 						isPlayable=1;
 					};
 					id=240;
@@ -10521,7 +10678,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="UnitAAF_A1_AT";
-						description="AAF Alpha 1 Assaultman (AT)";
+						description="UN Alpha 1 Assaultman (AT)";
 						isPlayable=1;
 					};
 					id=241;
@@ -10696,7 +10853,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="UnitAAF_A1_R1";
-						description="AAF Alpha 1 Rifleman";
+						description="UN Alpha 1 Rifleman";
 						isPlayable=1;
 					};
 					id=242;
@@ -10852,7 +11009,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="UnitAAF_A1_R2";
-						description="AAF Alpha 1 Rifleman";
+						description="UN Alpha 1 Rifleman";
 						isPlayable=1;
 					};
 					id=243;
@@ -11055,7 +11212,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="AAF A1";
+							value="UN A1";
 						};
 					};
 				};
@@ -11121,7 +11278,7 @@ class Mission
 						skill=0.60000002;
 						rank="CORPORAL";
 						name="UnitAAF_A2_FTL";
-						description="AAF Alpha 2 Fireteam Leader";
+						description="UN Alpha 2 Fireteam Leader";
 						isPlayable=1;
 					};
 					id=245;
@@ -11296,7 +11453,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="UnitAAF_A2_AR1";
-						description="AAF Alpha 2 Automatic Rifleman";
+						description="UN Alpha 2 Automatic Rifleman";
 						isPlayable=1;
 					};
 					id=246;
@@ -11471,7 +11628,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="UnitAAF_A2_AR2";
-						description="AAF Alpha 2 Automatic Rifleman";
+						description="UN Alpha 2 Automatic Rifleman";
 						isPlayable=1;
 					};
 					id=247;
@@ -11646,7 +11803,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="UnitAAF_A2_AT";
-						description="AAF Alpha 2 Assaultman (AT)";
+						description="UN Alpha 2 Assaultman (AT)";
 						isPlayable=1;
 					};
 					id=248;
@@ -11821,7 +11978,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="UnitAAF_A2_R1";
-						description="AAF Alpha 2 Rifleman";
+						description="UN Alpha 2 Rifleman";
 						isPlayable=1;
 					};
 					id=249;
@@ -11977,7 +12134,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="UnitAAF_A2_R2";
-						description="AAF Alpha 2 Rifleman";
+						description="UN Alpha 2 Rifleman";
 						isPlayable=1;
 					};
 					id=250;
@@ -12180,7 +12337,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="AAF A2";
+							value="UN A2";
 						};
 					};
 				};
@@ -12237,7 +12394,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={4111.1279,5.0014391,4429.0605};
+						position[]={4110.9136,5.0014391,4431.7231};
 					};
 					side="Independent";
 					flags=6;
@@ -12246,7 +12403,7 @@ class Mission
 						skill=0.60000002;
 						rank="CAPTAIN";
 						name="UnitAAF_TH1_P";
-						description="AAF Transport Helo 1 Pilot";
+						description="UN Transport Helo 1 Pilot";
 						isPlayable=1;
 					};
 					id=286;
@@ -12356,7 +12513,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={4116.1279,5.0014391,4427.4102};
+						position[]={4115.9136,5.0014391,4430.0728};
 					};
 					side="Independent";
 					flags=4;
@@ -12365,7 +12522,7 @@ class Mission
 						skill=0.60000002;
 						rank="LIEUTENANT";
 						name="UnitAAF_TH1_CP";
-						description="AAF Transport Helo 1 Co-Pilot (Repair)";
+						description="UN Transport Helo 1 Co-Pilot (Repair)";
 						isPlayable=1;
 					};
 					id=287;
@@ -12530,7 +12687,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="AAF TH1";
+							value="UN TH1";
 						};
 					};
 				};
@@ -14611,7 +14768,7 @@ class Mission
 			side="East";
 			class Entities
 			{
-				items=3;
+				items=4;
 				class Item0
 				{
 					dataType="Object";
@@ -14626,7 +14783,7 @@ class Mission
 						skill=0.60000002;
 						rank="CAPTAIN";
 						name="UnitCSAT_TH2_P";
-						description="CSAT Transport Helo 2 Pilot";
+						description="VDV Transport Helo 2 Pilot";
 						isPlayable=1;
 					};
 					id=363;
@@ -14745,7 +14902,7 @@ class Mission
 						skill=0.60000002;
 						rank="LIEUTENANT";
 						name="UnitCSAT_TH2_CP";
-						description="CSAT Transport Helo 2 Co-Pilot (Repair)";
+						description="VDV Transport Helo 2 Co-Pilot (Repair)";
 						isPlayable=1;
 					};
 					id=364;
@@ -14864,7 +15021,7 @@ class Mission
 						skill=0.60000002;
 						rank="SERGEANT";
 						name="UnitCSAT_TH2_LM";
-						description="CSAT Transport Helo 2 Loadmaster";
+						description="VDV Transport Helo 2 Loadmaster";
 						isPlayable=1;
 					};
 					id=365;
@@ -14988,6 +15145,163 @@ class Mission
 						nAttributes=6;
 					};
 				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3740.031,5.0014391,4388.0127};
+					};
+					side="East";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						rank="SERGEANT";
+						name="UnitCSAT_TH2_G";
+						description="VDV Transport Helo 2 Gunner";
+						isPlayable=1;
+					};
+					id=825;
+					type="O_helicrew_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="TMF_SpecialistMarker";
+							expression="_this setVariable ['TMF_SpecialistMarker',_value,true];";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="["""",""""]";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="TMF_assignGear_faction";
+							expression="false";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="vdv_emr";
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="TMF_assignGear_enabled";
+							expression="false";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=1;
+								};
+							};
+						};
+						class Attribute3
+						{
+							property="TMF_Channellist";
+							expression="_this setVariable ['TMF_Channellist',_value,true];";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="[]";
+								};
+							};
+						};
+						class Attribute4
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.03;
+								};
+							};
+						};
+						class Attribute5
+						{
+							property="TMF_assignGear_full";
+							expression="[_this,_value] call tmf_assignGear_fnc_helper;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="[""pc"",""vdv_emr"",true]";
+								};
+							};
+						};
+						class Attribute6
+						{
+							property="TMF_assignGear_role";
+							expression="false";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="pc";
+								};
+							};
+						};
+						nAttributes=7;
+					};
+				};
 			};
 			class Attributes
 			{
@@ -15048,7 +15362,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="CSAT TH2";
+							value="VDV TH2";
 						};
 					};
 				};
@@ -15095,7 +15409,7 @@ class Mission
 						skill=0.60000002;
 						rank="SERGEANT";
 						name="UnitCSAT_AV_C";
-						description="CSAT Alpha Vic Commander";
+						description="VDV Alpha Vic Commander";
 						isPlayable=1;
 					};
 					id=385;
@@ -15252,7 +15566,7 @@ class Mission
 						skill=0.60000002;
 						rank="CORPORAL";
 						name="UnitCSAT_AV_G";
-						description="CSAT Alpha Vic Gunner";
+						description="VDV Alpha Vic Gunner";
 						isPlayable=1;
 					};
 					id=386;
@@ -15408,7 +15722,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="UnitCSAT_AV_D";
-						description="CSAT Alpha Vic Driver (Repair)";
+						description="VDV Alpha Vic Driver (Repair)";
 						isPlayable=1;
 					};
 					id=387;
@@ -15611,7 +15925,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="CSAT AV";
+							value="VDV AV";
 						};
 					};
 				};
@@ -15677,7 +15991,7 @@ class Mission
 						skill=0.60000002;
 						rank="SERGEANT";
 						name="UnitCSAT_TNK1_C";
-						description="CSAT Tank 1 Commander";
+						description="VDV Tank 1 Commander";
 						isPlayable=1;
 					};
 					id=417;
@@ -15815,7 +16129,7 @@ class Mission
 						skill=0.60000002;
 						rank="CORPORAL";
 						name="UnitCSAT_TNK1_G";
-						description="CSAT Tank 1 Gunner";
+						description="VDV Tank 1 Gunner";
 						isPlayable=1;
 					};
 					id=418;
@@ -15952,7 +16266,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="UnitCSAT_TNK1_D";
-						description="CSAT Tank 1 Driver (Repair)";
+						description="VDV Tank 1 Driver (Repair)";
 						isPlayable=1;
 					};
 					id=419;
@@ -16136,7 +16450,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="CSAT TNK1";
+							value="VDV TNK1";
 						};
 					};
 				};
@@ -16183,7 +16497,7 @@ class Mission
 						skill=0.60000002;
 						rank="CAPTAIN";
 						name="UnitCSAT_AH1_P";
-						description="CSAT Attack Helo 1 Pilot";
+						description="VDV Attack Helo 1 Pilot";
 						isPlayable=1;
 					};
 					id=421;
@@ -16321,7 +16635,7 @@ class Mission
 						skill=0.60000002;
 						rank="LIEUTENANT";
 						name="UnitCSAT_AH1_CP";
-						description="CSAT Attack Helo 1 Gunner (Repair)";
+						description="VDV Attack Helo 1 Gunner (Repair)";
 						isPlayable=1;
 					};
 					id=422;
@@ -16505,7 +16819,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="CSAT AH1";
+							value="VDV AH1";
 						};
 					};
 				};
@@ -16543,7 +16857,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={4135.4736,5.0014391,4429.0605};
+						position[]={4135.2686,5.0014391,4431.2061};
 					};
 					side="Independent";
 					flags=6;
@@ -16552,7 +16866,7 @@ class Mission
 						skill=0.60000002;
 						rank="CAPTAIN";
 						name="UnitAAF_TH2_P";
-						description="AAF Transport Helo 2 Pilot";
+						description="UN Transport Helo 2 Pilot";
 						isPlayable=1;
 					};
 					id=424;
@@ -16662,7 +16976,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={4140.4736,5.0014391,4427.4102};
+						position[]={4140.2686,5.0014391,4429.5557};
 					};
 					side="Independent";
 					flags=4;
@@ -16671,7 +16985,7 @@ class Mission
 						skill=0.60000002;
 						rank="LIEUTENANT";
 						name="UnitAAF_TH2_CP";
-						description="AAF Transport Helo 2 Co-Pilot (Repair)";
+						description="UN Transport Helo 2 Co-Pilot (Repair)";
 						isPlayable=1;
 					};
 					id=425;
@@ -16836,7 +17150,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="AAF TH2";
+							value="UN TH2";
 						};
 					};
 				};
@@ -16883,7 +17197,7 @@ class Mission
 						skill=0.60000002;
 						rank="SERGEANT";
 						name="UnitAAF_AV_C";
-						description="AAF Alpha Vic Commander";
+						description="UN Alpha Vic Commander";
 						isPlayable=1;
 					};
 					id=433;
@@ -17041,7 +17355,7 @@ class Mission
 						skill=0.60000002;
 						rank="CORPORAL";
 						name="UnitAAF_AV_G";
-						description="AAF Alpha Vic Gunner";
+						description="UN Alpha Vic Gunner";
 						isPlayable=1;
 					};
 					id=434;
@@ -17197,7 +17511,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="UnitAAF_AV_D";
-						description="AAF Alpha Vic Driver (Repair)";
+						description="UN Alpha Vic Driver (Repair)";
 						isPlayable=1;
 					};
 					id=435;
@@ -17401,7 +17715,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="AAF  AV";
+							value="UN  AV";
 						};
 					};
 				};
@@ -17467,7 +17781,7 @@ class Mission
 						skill=0.60000002;
 						rank="SERGEANT";
 						name="UnitAAF_TNK1_C";
-						description="AAF Tank 1 Commander";
+						description="UN Tank 1 Commander";
 						isPlayable=1;
 					};
 					id=465;
@@ -17605,7 +17919,7 @@ class Mission
 						skill=0.60000002;
 						rank="CORPORAL";
 						name="UnitAAF_TNK1_G";
-						description="AAF Tank 1 Gunner";
+						description="UN Tank 1 Gunner";
 						isPlayable=1;
 					};
 					id=466;
@@ -17743,7 +18057,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="UnitAAF_TNK1_D";
-						description="AAF Tank 1 Driver (Repair)";
+						description="UN Tank 1 Driver (Repair)";
 						isPlayable=1;
 					};
 					id=467;
@@ -17929,7 +18243,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="AAF TNK1";
+							value="UN TNK1";
 						};
 					};
 				};
@@ -17976,7 +18290,7 @@ class Mission
 						skill=0.60000002;
 						rank="CAPTAIN";
 						name="UnitAAF_AH1_P";
-						description="AAF Attack Helo 1 Pilot";
+						description="UN Attack Helo 1 Pilot";
 						isPlayable=1;
 					};
 					id=469;
@@ -18114,7 +18428,7 @@ class Mission
 						skill=0.60000002;
 						rank="LIEUTENANT";
 						name="UnitAAF_AH1_CP";
-						description="AAF Attack Helo 1 Co-Pilot (Repair)";
+						description="UN Attack Helo 1 Co-Pilot (Repair)";
 						isPlayable=1;
 					};
 					id=470;
@@ -18279,7 +18593,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="AAF AH1";
+							value="UN AH1";
 						};
 					};
 				};
@@ -18326,7 +18640,7 @@ class Mission
 						skill=0.60000002;
 						rank="CORPORAL";
 						name="UnitCSAT_MMG1_AG";
-						description="CSAT Medium MG Team 1 Spotter (Leader)";
+						description="VDV Medium MG Team 1 Spotter (Leader)";
 						isPlayable=1;
 					};
 					id=492;
@@ -18463,7 +18777,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="UnitCSAT_MMG1_G";
-						description="CSAT Medium MG Team 1 Gunner";
+						description="VDV Medium MG Team 1 Gunner";
 						isPlayable=1;
 					};
 					id=493;
@@ -18599,7 +18913,7 @@ class Mission
 					class Attributes
 					{
 						name="UnitCSAT_MMG1_AG2";
-						description="CSAT Medium MG Team 1 Assistant";
+						description="VDV Medium MG Team 1 Assistant";
 						isPlayable=1;
 					};
 					id=746;
@@ -18764,7 +19078,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="CSAT MMG1";
+							value="VDV MMG1";
 						};
 					};
 				};
@@ -18811,7 +19125,7 @@ class Mission
 						skill=0.60000002;
 						rank="CORPORAL";
 						name="UnitCSAT_MMG2_AG";
-						description="CSAT Medium MG Team 2 Spotter (Leader)";
+						description="VDV Medium MG Team 2 Spotter (Leader)";
 						isPlayable=1;
 					};
 					id=495;
@@ -18948,7 +19262,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="UnitCSAT_MMG2_G";
-						description="CSAT Medium MG Team 2 Gunner";
+						description="VDV Medium MG Team 2 Gunner";
 						isPlayable=1;
 					};
 					id=496;
@@ -19065,7 +19379,7 @@ class Mission
 					class Attributes
 					{
 						name="UnitCSAT_MMG2_AG2";
-						description="CSAT Medium MG Team 2 Assistant";
+						description="VDV Medium MG Team 2 Assistant";
 						isPlayable=1;
 					};
 					id=747;
@@ -19230,7 +19544,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="CSAT MMG2";
+							value="VDV MMG2";
 						};
 					};
 				};
@@ -19277,7 +19591,7 @@ class Mission
 						skill=0.60000002;
 						rank="CORPORAL";
 						name="UnitCSAT_HMG1_AG";
-						description="CSAT Heavy MG Team 1 Spotter (Leader)";
+						description="VDV Heavy MG Team 1 Spotter (Leader)";
 						isPlayable=1;
 					};
 					id=498;
@@ -19414,7 +19728,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="UnitCSAT_HMG1_G";
-						description="CSAT Heavy MG Team 1 Gunner";
+						description="VDV Heavy MG Team 1 Gunner";
 						isPlayable=1;
 					};
 					id=499;
@@ -19550,7 +19864,7 @@ class Mission
 					class Attributes
 					{
 						name="UnitCSAT_HMG1_AG2";
-						description="CSAT Heavy MG Team 1 Assistant";
+						description="VDV Heavy MG Team 1 Assistant";
 						isPlayable=1;
 					};
 					id=748;
@@ -19715,7 +20029,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="CSAT HMG1";
+							value="VDV HMG1";
 						};
 					};
 				};
@@ -19762,7 +20076,7 @@ class Mission
 						skill=0.60000002;
 						rank="CORPORAL";
 						name="UnitCSAT_MAT1_AG";
-						description="CSAT Medium AT Team 1 Spotter (Leader)";
+						description="VDV Medium AT Team 1 Spotter (Leader)";
 						isPlayable=1;
 					};
 					id=501;
@@ -19899,7 +20213,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="UnitCSAT_MAT1_G";
-						description="CSAT Medium AT Team 1 Gunner";
+						description="VDV Medium AT Team 1 Gunner";
 						isPlayable=1;
 					};
 					id=502;
@@ -20035,7 +20349,7 @@ class Mission
 					class Attributes
 					{
 						name="UnitCSAT_MAT1_AG2";
-						description="CSAT Medium AT Team 1 Assistant";
+						description="VDV Medium AT Team 1 Assistant";
 						isPlayable=1;
 					};
 					id=749;
@@ -20200,7 +20514,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="CSAT MAT1";
+							value="VDV MAT1";
 						};
 					};
 				};
@@ -20247,7 +20561,7 @@ class Mission
 						skill=0.60000002;
 						rank="CORPORAL";
 						name="UnitCSAT_MAT2_AG";
-						description="CSAT Medium AT Team 2 Spotter (Leader)";
+						description="VDV Medium AT Team 2 Spotter (Leader)";
 						isPlayable=1;
 					};
 					id=504;
@@ -20384,7 +20698,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="UnitCSAT_MAT2_G";
-						description="CSAT Medium AT Team 2 Gunner";
+						description="VDV Medium AT Team 2 Gunner";
 						isPlayable=1;
 					};
 					id=505;
@@ -20501,7 +20815,7 @@ class Mission
 					class Attributes
 					{
 						name="UnitCSAT_MAT2_AG2";
-						description="CSAT Medium AT Team 2 Assistant";
+						description="VDV Medium AT Team 2 Assistant";
 						isPlayable=1;
 					};
 					id=750;
@@ -20666,7 +20980,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="CSAT MAT2";
+							value="VDV MAT2";
 						};
 					};
 				};
@@ -20713,7 +21027,7 @@ class Mission
 						skill=0.60000002;
 						rank="CORPORAL";
 						name="UnitCSAT_HAT1_AG";
-						description="CSAT Heavy AT Team 1 Spotter (Leader)";
+						description="VDV Heavy AT Team 1 Spotter (Leader)";
 						isPlayable=1;
 					};
 					id=507;
@@ -20850,7 +21164,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="UnitCSAT_HAT1_G";
-						description="CSAT Heavy AT Team 1 Gunner";
+						description="VDV Heavy AT Team 1 Gunner";
 						isPlayable=1;
 					};
 					id=508;
@@ -20986,7 +21300,7 @@ class Mission
 					class Attributes
 					{
 						name="UnitCSAT_HAT1_AG2";
-						description="CSAT Heavy AT Team 1 Assistant";
+						description="VDV Heavy AT Team 1 Assistant";
 						isPlayable=1;
 					};
 					id=751;
@@ -21151,7 +21465,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="CSAT HAT1";
+							value="VDV HAT1";
 						};
 					};
 				};
@@ -21198,7 +21512,7 @@ class Mission
 						skill=0.60000002;
 						rank="CORPORAL";
 						name="UnitCSAT_MTR1_AG";
-						description="CSAT Mortar Team 1 Spotter (Leader)";
+						description="VDV Mortar Team 1 Spotter (Leader)";
 						isPlayable=1;
 					};
 					id=510;
@@ -21335,7 +21649,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="UnitCSAT_MTR1_G";
-						description="CSAT Mortar Team 1 Gunner";
+						description="VDV Mortar Team 1 Gunner";
 						isPlayable=1;
 					};
 					id=511;
@@ -21472,7 +21786,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="UnitCSAT_MTR1_AG2";
-						description="CSAT Mortar Team 1 Assistant";
+						description="VDV Mortar Team 1 Assistant";
 						isPlayable=1;
 					};
 					id=759;
@@ -21656,7 +21970,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="CSAT MTR1";
+							value="VDV MTR1";
 						};
 					};
 				};
@@ -21703,7 +22017,7 @@ class Mission
 						skill=0.60000002;
 						rank="CORPORAL";
 						name="UnitCSAT_MSAM1_AG";
-						description="CSAT Medium SAM Team 1 Spotter (Leader)";
+						description="VDV Medium SAM Team 1 Spotter (Leader)";
 						isPlayable=1;
 					};
 					id=513;
@@ -21840,7 +22154,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="UnitCSAT_MSAM1_G";
-						description="CSAT Medium SAM Team 1 Gunner";
+						description="VDV Medium SAM Team 1 Gunner";
 						isPlayable=1;
 					};
 					id=514;
@@ -22024,7 +22338,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="CSAT MSAM1";
+							value="VDV MSAM1";
 						};
 					};
 				};
@@ -22071,7 +22385,7 @@ class Mission
 						skill=0.60000002;
 						rank="CORPORAL";
 						name="UnitCSAT_ST1_SP";
-						description="CSAT Sniper Team 1 Spotter (Leader)";
+						description="VDV Sniper Team 1 Spotter (Leader)";
 						isPlayable=1;
 					};
 					id=519;
@@ -22208,7 +22522,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="UnitCSAT_ST1_SN";
-						description="CSAT Sniper Team 1 Sniper";
+						description="VDV Sniper Team 1 Sniper";
 						isPlayable=1;
 					};
 					id=520;
@@ -22392,7 +22706,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="CSAT ST1";
+							value="VDV ST1";
 						};
 					};
 				};
@@ -22439,7 +22753,7 @@ class Mission
 						skill=0.60000002;
 						rank="CORPORAL";
 						name="UnitCSAT_ENG1_FTL";
-						description="CSAT Engineer Team 1 Leader (Demo)";
+						description="VDV Engineer Team 1 Leader (Demo)";
 						isPlayable=1;
 					};
 					id=522;
@@ -22576,7 +22890,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="UnitCSAT_ENG1_A1";
-						description="CSAT Engineer Team 1 Assistant (Demo)";
+						description="VDV Engineer Team 1 Assistant (Demo)";
 						isPlayable=1;
 					};
 					id=523;
@@ -22694,7 +23008,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="UnitCSAT_ENG1_A2";
-						description="CSAT Engineer Team 1 Assistant (Mines)";
+						description="VDV Engineer Team 1 Assistant (Mines)";
 						isPlayable=1;
 					};
 					id=524;
@@ -22812,7 +23126,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="UnitCSAT_ENG1_A3";
-						description="CSAT Engineer Team 1 Assistant (Mines)";
+						description="VDV Engineer Team 1 Assistant (Mines)";
 						isPlayable=1;
 					};
 					id=525;
@@ -22977,7 +23291,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="CSAT ENG1";
+							value="VDV ENG1";
 						};
 					};
 				};
@@ -23024,7 +23338,7 @@ class Mission
 						skill=0.60000002;
 						rank="CAPTAIN";
 						name="UnitCSAT_CAS1_P";
-						description="CSAT CAS1 Pilot";
+						description="VDV CAS1 Pilot";
 						isPlayable=1;
 					};
 					id=532;
@@ -23208,7 +23522,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="CSAT CAS1";
+							value="VDV CAS1";
 						};
 					};
 				};
@@ -23256,7 +23570,7 @@ class Mission
 						skill=0.60000002;
 						rank="CORPORAL";
 						name="UnitAAF_MMG1_AG";
-						description="AAF Medium MG Team 1 Spotter (Leader)";
+						description="UN Medium MG Team 1 Spotter (Leader)";
 						isPlayable=1;
 					};
 					id=534;
@@ -23393,7 +23707,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="UnitAAF_MMG1_G";
-						description="AAF Medium MG Team 1 Gunner";
+						description="UN Medium MG Team 1 Gunner";
 						isPlayable=1;
 					};
 					id=535;
@@ -23529,7 +23843,7 @@ class Mission
 					class Attributes
 					{
 						name="UnitAAF_MMG1_AG2";
-						description="AAF Medium MG Team 1 Assistant";
+						description="UN Medium MG Team 1 Assistant";
 						isPlayable=1;
 					};
 					id=740;
@@ -23694,7 +24008,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="AAF MMG1";
+							value="UN MMG1";
 						};
 					};
 				};
@@ -23742,7 +24056,7 @@ class Mission
 						skill=0.60000002;
 						rank="CORPORAL";
 						name="UnitAAF_MMG2_AG";
-						description="AAF Medium MG Team 2 Spotter (Leader)";
+						description="UN Medium MG Team 2 Spotter (Leader)";
 						isPlayable=1;
 					};
 					id=537;
@@ -23879,7 +24193,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="UnitAAF_MMG2_G";
-						description="AAF Medium MG Team 2 Gunner";
+						description="UN Medium MG Team 2 Gunner";
 						isPlayable=1;
 					};
 					id=538;
@@ -23996,7 +24310,7 @@ class Mission
 					class Attributes
 					{
 						name="UnitAAF_MMG2_AG2";
-						description="AAF Medium MG Team 2 Assistant";
+						description="UN Medium MG Team 2 Assistant";
 						isPlayable=1;
 					};
 					id=741;
@@ -24161,7 +24475,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="AAF MMG2";
+							value="UN MMG2";
 						};
 					};
 				};
@@ -24209,7 +24523,7 @@ class Mission
 						skill=0.60000002;
 						rank="CORPORAL";
 						name="UnitAAF_HMG1_AG";
-						description="AAF Heavy MG Team 1 Spotter (Leader)";
+						description="UN Heavy MG Team 1 Spotter (Leader)";
 						isPlayable=1;
 					};
 					id=540;
@@ -24346,7 +24660,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="UnitAAF_HMG1_G";
-						description="AAF Heavy MG Team 1 Gunner";
+						description="UN Heavy MG Team 1 Gunner";
 						isPlayable=1;
 					};
 					id=541;
@@ -24482,7 +24796,7 @@ class Mission
 					class Attributes
 					{
 						name="UnitAAF_HMG1_AG2";
-						description="AAF Heavy MG Team 1 Assistant";
+						description="UN Heavy MG Team 1 Assistant";
 						isPlayable=1;
 					};
 					id=742;
@@ -24647,7 +24961,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="AAF HMG1";
+							value="UN HMG1";
 						};
 					};
 				};
@@ -24694,7 +25008,7 @@ class Mission
 						skill=0.60000002;
 						rank="CORPORAL";
 						name="UnitAAF_MAT1_AG";
-						description="AAF Medium AT Team 1 Spotter (Leader)";
+						description="UN Medium AT Team 1 Spotter (Leader)";
 						isPlayable=1;
 					};
 					id=543;
@@ -24831,7 +25145,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="UnitAAF_MAT1_G";
-						description="AAF Medium AT Team 1 Gunner";
+						description="UN Medium AT Team 1 Gunner";
 						isPlayable=1;
 					};
 					id=544;
@@ -24967,7 +25281,7 @@ class Mission
 					class Attributes
 					{
 						name="UnitAAF_MAT1_AG2";
-						description="AAF Medium AT Team 1 Assistant";
+						description="UN Medium AT Team 1 Assistant";
 						isPlayable=1;
 					};
 					id=743;
@@ -25132,7 +25446,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="AAF MAT1";
+							value="UN MAT1";
 						};
 					};
 				};
@@ -25179,7 +25493,7 @@ class Mission
 						skill=0.60000002;
 						rank="CORPORAL";
 						name="UnitAAF_MAT2_AG";
-						description="AAF Medium AT Team 2 Spotter (Leader)";
+						description="UN Medium AT Team 2 Spotter (Leader)";
 						isPlayable=1;
 					};
 					id=546;
@@ -25316,7 +25630,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="UnitAAF_MAT2_G";
-						description="AAF Medium AT Team 2 Gunner";
+						description="UN Medium AT Team 2 Gunner";
 						isPlayable=1;
 					};
 					id=547;
@@ -25452,7 +25766,7 @@ class Mission
 					class Attributes
 					{
 						name="UnitAAF_MAT2_AG2";
-						description="AAF Medium AT Team 2 Assistant";
+						description="UN Medium AT Team 2 Assistant";
 						isPlayable=1;
 					};
 					id=744;
@@ -25617,7 +25931,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="AAF MAT2";
+							value="UN MAT2";
 						};
 					};
 				};
@@ -25664,7 +25978,7 @@ class Mission
 						skill=0.60000002;
 						rank="CORPORAL";
 						name="UnitAAF_HAT1_AG";
-						description="AAF Heavy AT Team 1 Spotter (Leader)";
+						description="UN Heavy AT Team 1 Spotter (Leader)";
 						isPlayable=1;
 					};
 					id=549;
@@ -25801,7 +26115,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="UnitAAF_HAT1_G";
-						description="AAF Heavy AT Team 1 Gunner";
+						description="UN Heavy AT Team 1 Gunner";
 						isPlayable=1;
 					};
 					id=550;
@@ -25937,7 +26251,7 @@ class Mission
 					class Attributes
 					{
 						name="UnitAAF_HAT1_AG2";
-						description="AAF Heavy AT Team 1 Assistant";
+						description="UN Heavy AT Team 1 Assistant";
 						isPlayable=1;
 					};
 					id=745;
@@ -26102,7 +26416,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="AAF HAT1";
+							value="UN HAT1";
 						};
 					};
 				};
@@ -26149,7 +26463,7 @@ class Mission
 						skill=0.60000002;
 						rank="CORPORAL";
 						name="UnitAAF_MTR1_AG";
-						description="AAF Mortar Team 1 Spotter (Leader)";
+						description="UN Mortar Team 1 Spotter (Leader)";
 						isPlayable=1;
 					};
 					id=552;
@@ -26286,7 +26600,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="UnitAAF_MTR1_G";
-						description="AAF Mortar Team 1 Gunner";
+						description="UN Mortar Team 1 Gunner";
 						isPlayable=1;
 					};
 					id=553;
@@ -26423,7 +26737,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="UnitAAF_MTR1_AG2";
-						description="AAF Mortar Team 1 Assistant";
+						description="UN Mortar Team 1 Assistant";
 						isPlayable=1;
 					};
 					id=757;
@@ -26607,7 +26921,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="AAF MTR1";
+							value="UN MTR1";
 						};
 					};
 				};
@@ -26654,7 +26968,7 @@ class Mission
 						skill=0.60000002;
 						rank="CORPORAL";
 						name="UnitAAF_MSAM1_AG";
-						description="AAF Medium SAM Team 1 Spotter (Leader)";
+						description="UN Medium SAM Team 1 Spotter (Leader)";
 						isPlayable=1;
 					};
 					id=555;
@@ -26791,7 +27105,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="UnitAAF_MSAM1_G";
-						description="AAF Medium SAM Team 1 Gunner";
+						description="UN Medium SAM Team 1 Gunner";
 						isPlayable=1;
 					};
 					id=556;
@@ -26975,7 +27289,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="AAF MSAM1";
+							value="UN MSAM1";
 						};
 					};
 				};
@@ -27022,7 +27336,7 @@ class Mission
 						skill=0.60000002;
 						rank="CORPORAL";
 						name="UnitAAF_ST1_SP";
-						description="AAF Sniper Team 1 Spotter (Leader)";
+						description="UN Sniper Team 1 Spotter (Leader)";
 						isPlayable=1;
 					};
 					id=561;
@@ -27159,7 +27473,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="UnitAAF_ST1_SN";
-						description="AAF Sniper Team 1 Sniper";
+						description="UN Sniper Team 1 Sniper";
 						isPlayable=1;
 					};
 					id=562;
@@ -27343,7 +27657,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="AAF ST1";
+							value="UN ST1";
 						};
 					};
 				};
@@ -27389,7 +27703,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="UnitAAF_ENG1_FTL";
-						description="AAF Engineer Team 1 Leader (Demo)";
+						description="UN Engineer Team 1 Leader (Demo)";
 						isPlayable=1;
 					};
 					id=564;
@@ -27526,7 +27840,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="UnitAAF_ENG1_A1";
-						description="AAF Engineer Team 1 Assistant (Demo)";
+						description="UN Engineer Team 1 Assistant (Demo)";
 						isPlayable=1;
 					};
 					id=565;
@@ -27644,7 +27958,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="UnitAAF_ENG1_A2";
-						description="AAF Engineer Team 1 Assistant (Mines)";
+						description="UN Engineer Team 1 Assistant (Mines)";
 						isPlayable=1;
 					};
 					id=566;
@@ -27762,7 +28076,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="UnitAAF_ENG1_A3";
-						description="AAF Engineer Team 1 Assistant (Mines)";
+						description="UN Engineer Team 1 Assistant (Mines)";
 						isPlayable=1;
 					};
 					id=567;
@@ -27927,7 +28241,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="AAF ENG1";
+							value="UN ENG1";
 						};
 					};
 				};
@@ -27974,7 +28288,7 @@ class Mission
 						skill=0.60000002;
 						rank="CAPTAIN";
 						name="UnitAAF_CAS1_P";
-						description="AAF CAS1 Pilot";
+						description="UN CAS1 Pilot";
 						isPlayable=1;
 					};
 					id=574;
@@ -28158,7 +28472,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="AAF CAS1";
+							value="UN CAS1";
 						};
 					};
 				};
@@ -33311,7 +33625,7 @@ class Mission
 						skill=0.60000002;
 						rank="LIEUTENANT";
 						name="UnitFIA_CO";
-						description="FIA Commander";
+						description="3IFB Commander";
 						isPlayable=1;
 					};
 					id=618;
@@ -33449,7 +33763,7 @@ class Mission
 						skill=0.60000002;
 						rank="CORPORAL";
 						name="UnitFIA_CO_M";
-						description="FIA Medic";
+						description="3IFB Medic";
 						isPlayable=1;
 					};
 					id=619;
@@ -33586,7 +33900,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="UnitFIA_CO_D";
-						description="FIA Driver ";
+						description="3IFB Driver ";
 						isPlayable=1;
 					};
 					id=621;
@@ -33704,7 +34018,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="UnitFIA_CO_FAC";
-						description="FIA FAC";
+						description="3IFB FAC";
 						isPlayable=1;
 					};
 					id=622;
@@ -33888,7 +34202,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="FIA CO";
+							value="3IFB CO";
 						};
 					};
 				};
@@ -33935,7 +34249,7 @@ class Mission
 						skill=0.60000002;
 						rank="SERGEANT";
 						name="UnitFIA_ASL_SL";
-						description="FIA Alpha Squad Leader";
+						description="3IFB Alpha Squad Leader";
 						isPlayable=1;
 					};
 					id=629;
@@ -34073,7 +34387,7 @@ class Mission
 						skill=0.60000002;
 						rank="CORPORAL";
 						name="UnitFIA_ASL_M";
-						description="FIA Alpha Medic";
+						description="3IFB Alpha Medic";
 						isPlayable=1;
 					};
 					id=630;
@@ -34257,7 +34571,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="FIA ASL";
+							value="3IFB ASL";
 						};
 					};
 				};
@@ -34323,7 +34637,7 @@ class Mission
 						skill=0.60000002;
 						rank="CORPORAL";
 						name="UnitFIA_A1_FTL";
-						description="FIA Alpha 1 Fireteam Leader";
+						description="3IFB Alpha 1 Fireteam Leader";
 						isPlayable=1;
 					};
 					id=632;
@@ -34498,7 +34812,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="UnitFIA_A1_AR1";
-						description="FIA Alpha 1 Automatic Rifleman";
+						description="3IFB Alpha 1 Automatic Rifleman";
 						isPlayable=1;
 					};
 					id=633;
@@ -34673,7 +34987,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="UnitFIA_A1_AR2";
-						description="FIA Alpha 1 Automatic Rifleman";
+						description="3IFB Alpha 1 Automatic Rifleman";
 						isPlayable=1;
 					};
 					id=634;
@@ -34848,7 +35162,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="UnitFIA_A1_AT";
-						description="FIA Alpha 1 Assaultman (AT)";
+						description="3IFB Alpha 1 Assaultman (AT)";
 						isPlayable=1;
 					};
 					id=635;
@@ -35023,7 +35337,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="UnitFIA_A1_R1";
-						description="FIA Alpha 1 Rifleman";
+						description="3IFB Alpha 1 Rifleman";
 						isPlayable=1;
 						class Inventory
 						{
@@ -35223,7 +35537,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="UnitFIA_A1_R2";
-						description="FIA Alpha 1 Rifleman";
+						description="3IFB Alpha 1 Rifleman";
 						isPlayable=1;
 					};
 					id=637;
@@ -35426,7 +35740,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="FIA A1";
+							value="3IFB A1";
 						};
 					};
 				};
@@ -35492,7 +35806,7 @@ class Mission
 						skill=0.60000002;
 						rank="CORPORAL";
 						name="UnitFIA_A2_FTL";
-						description="FIA Alpha 2 Fireteam Leader";
+						description="3IFB Alpha 2 Fireteam Leader";
 						isPlayable=1;
 					};
 					id=639;
@@ -35667,7 +35981,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="UnitFIA_A2_AR1";
-						description="FIA Alpha 2 Automatic Rifleman";
+						description="3IFB Alpha 2 Automatic Rifleman";
 						isPlayable=1;
 					};
 					id=640;
@@ -35842,7 +36156,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="UnitFIA_A2_AR2";
-						description="FIA Alpha 2 Automatic Rifleman";
+						description="3IFB Alpha 2 Automatic Rifleman";
 						isPlayable=1;
 					};
 					id=641;
@@ -36017,7 +36331,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="UnitFIA_A2_AT";
-						description="FIA Alpha 2 Assaultman (AT)";
+						description="3IFB Alpha 2 Assaultman (AT)";
 						isPlayable=1;
 					};
 					id=642;
@@ -36192,7 +36506,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="UnitFIA_A2_R1";
-						description="FIA Alpha 2 Rifleman";
+						description="3IFB Alpha 2 Rifleman";
 						isPlayable=1;
 					};
 					id=643;
@@ -36348,7 +36662,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="UnitFIA_A2_R2";
-						description="FIA Alpha 2 Rifleman";
+						description="3IFB Alpha 2 Rifleman";
 						isPlayable=1;
 					};
 					id=644;
@@ -36551,7 +36865,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="FIA A2";
+							value="3IFB A2";
 						};
 					};
 				};
@@ -36617,7 +36931,7 @@ class Mission
 						skill=0.60000002;
 						rank="CORPORAL";
 						name="UnitFIA_MMG1_AG";
-						description="FIA Medium MG Team 1 Spotter (Leader)";
+						description="3IFB Medium MG Team 1 Spotter (Leader)";
 						isPlayable=1;
 					};
 					id=680;
@@ -36754,7 +37068,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="UnitFIA_MMG1_G";
-						description="FIA Medium MG Team 1 Gunner";
+						description="3IFB Medium MG Team 1 Gunner";
 						isPlayable=1;
 					};
 					id=681;
@@ -36890,7 +37204,7 @@ class Mission
 					class Attributes
 					{
 						name="UnitFIA_MMG1_AG2";
-						description="FIA Medium MG Team 1 Assistant";
+						description="3IFB Medium MG Team 1 Assistant";
 						isPlayable=1;
 					};
 					id=737;
@@ -37055,7 +37369,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="FIA MMG1";
+							value="3IFB MMG1";
 						};
 					};
 				};
@@ -37102,7 +37416,7 @@ class Mission
 						skill=0.60000002;
 						rank="CORPORAL";
 						name="UnitFIA_HMG1_AG";
-						description="FIA Heavy MG Team 1 Spotter (Leader)";
+						description="3IFB Heavy MG Team 1 Spotter (Leader)";
 						isPlayable=1;
 					};
 					id=683;
@@ -37239,7 +37553,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="UnitFIA_HMG1_G";
-						description="FIA Heavy MG Team 1 Gunner";
+						description="3IFB Heavy MG Team 1 Gunner";
 						isPlayable=1;
 					};
 					id=684;
@@ -37375,7 +37689,7 @@ class Mission
 					class Attributes
 					{
 						name="UnitFIA_HMG1_AG2";
-						description="FIA Heavy MG Team 1 Assitant";
+						description="3IFB Heavy MG Team 1 Assitant";
 						isPlayable=1;
 					};
 					id=738;
@@ -37540,7 +37854,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="FIA HMG1";
+							value="3IFB HMG1";
 						};
 					};
 				};
@@ -37587,7 +37901,7 @@ class Mission
 						skill=0.60000002;
 						rank="CORPORAL";
 						name="UnitFIA_MAT1_AG";
-						description="FIA Medium AT Team 1 Spotter (Leader)";
+						description="3IFB Medium AT Team 1 Spotter (Leader)";
 						isPlayable=1;
 					};
 					id=686;
@@ -37725,7 +38039,7 @@ class Mission
 						health=0.99000001;
 						skill=0.60000002;
 						name="UnitFIA_MAT1_G";
-						description="FIA Medium AT Team 1 Gunner";
+						description="3IFB Medium AT Team 1 Gunner";
 						isPlayable=1;
 					};
 					id=687;
@@ -37861,7 +38175,7 @@ class Mission
 					class Attributes
 					{
 						name="UnitFIA_MAT1_AG2";
-						description="FIA Medium AT Team 1 Assistant";
+						description="3IFB Medium AT Team 1 Assistant";
 						isPlayable=1;
 					};
 					id=739;
@@ -38026,7 +38340,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="FIA MAT1";
+							value="3IFB MAT1";
 						};
 					};
 				};
@@ -38073,7 +38387,7 @@ class Mission
 						skill=0.60000002;
 						rank="CORPORAL";
 						name="UnitFIA_HAT1_AG";
-						description="FIA Heavy AT Team 1 Spotter (Leader)";
+						description="3IFB Heavy AT Team 1 Spotter (Leader)";
 						isPlayable=1;
 					};
 					id=689;
@@ -38211,7 +38525,7 @@ class Mission
 						health=0.99000001;
 						skill=0.60000002;
 						name="UnitFIA_HAT1_G";
-						description="FIA Heavy AT Team 1 Gunner";
+						description="3IFB Heavy AT Team 1 Gunner";
 						isPlayable=1;
 					};
 					id=690;
@@ -38347,7 +38661,7 @@ class Mission
 					class Attributes
 					{
 						name="UnitFIA_HAT1_AG2";
-						description="FIA Heavy AT Team 1 Assistant";
+						description="3IFB Heavy AT Team 1 Assistant";
 						isPlayable=1;
 					};
 					id=736;
@@ -38512,7 +38826,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="FIA HAT1";
+							value="3IFB HAT1";
 						};
 					};
 				};
@@ -38559,7 +38873,7 @@ class Mission
 						skill=0.60000002;
 						rank="CORPORAL";
 						name="UnitFIA_MTR1_AG";
-						description="FIA Mortar Team 1 Spotter (Leader)";
+						description="3IFB Mortar Team 1 Spotter (Leader)";
 						isPlayable=1;
 					};
 					id=692;
@@ -38697,7 +39011,7 @@ class Mission
 						health=0.99000001;
 						skill=0.60000002;
 						name="UnitFIA_MTR1_G";
-						description="FIA Mortar Team 1 Gunner";
+						description="3IFB Mortar Team 1 Gunner";
 						isPlayable=1;
 					};
 					id=693;
@@ -38853,7 +39167,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="UnitFIA_MTR1_AG2";
-						description="FIA Mortar Team 1 Assistant";
+						description="3IFB Mortar Team 1 Assistant";
 						isPlayable=1;
 					};
 					id=755;
@@ -39037,7 +39351,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="FIA MTR1";
+							value="3IFB MTR1";
 						};
 					};
 				};
@@ -39084,7 +39398,7 @@ class Mission
 						skill=0.60000002;
 						rank="CORPORAL";
 						name="UnitFIA_MSAM1_AG";
-						description="FIA Medium SAM Team 1 Spotter (Leader)";
+						description="3IFB Medium SAM Team 1 Spotter (Leader)";
 						isPlayable=1;
 					};
 					id=695;
@@ -39222,7 +39536,7 @@ class Mission
 						health=0.99000001;
 						skill=0.60000002;
 						name="UnitFIA_MSAM1_G";
-						description="FIA Medium SAM Team 1 Gunner";
+						description="3IFB Medium SAM Team 1 Gunner";
 						isPlayable=1;
 					};
 					id=696;
@@ -39406,7 +39720,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="FIA MSAM1";
+							value="3IFB MSAM1";
 						};
 					};
 				};
@@ -39453,7 +39767,7 @@ class Mission
 						skill=0.60000002;
 						rank="CORPORAL";
 						name="UnitFIA_ST1_SP";
-						description="FIA Sniper Team 1 Spotter (Leader)";
+						description="3IFB Sniper Team 1 Spotter (Leader)";
 						isPlayable=1;
 					};
 					id=701;
@@ -39591,7 +39905,7 @@ class Mission
 						health=0.99000001;
 						skill=0.60000002;
 						name="UnitFIA_ST1_G";
-						description="FIA Sniper Team 1 Sniper";
+						description="3IFB Sniper Team 1 Sniper";
 						isPlayable=1;
 					};
 					id=702;
@@ -39775,7 +40089,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="FIA ST1";
+							value="3IFB ST1";
 						};
 					};
 				};
@@ -39822,7 +40136,7 @@ class Mission
 						skill=0.60000002;
 						rank="CORPORAL";
 						name="UnitFIA_ENG1_FTL";
-						description="FIA Engineer Team 1 Leader (Demo)";
+						description="3IFB Engineer Team 1 Leader (Demo)";
 						isPlayable=1;
 					};
 					id=704;
@@ -39959,7 +40273,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="UnitFIA_ENG1_A1";
-						description="FIA Engineer Team 1 Assistant (Demo)";
+						description="3IFB Engineer Team 1 Assistant (Demo)";
 						isPlayable=1;
 					};
 					id=705;
@@ -40077,7 +40391,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="UnitFIA_ENG1_A2";
-						description="FIA Engineer Team 1 Assistant (Mines)";
+						description="3IFB Engineer Team 1 Assistant (Mines)";
 						isPlayable=1;
 					};
 					id=706;
@@ -40195,7 +40509,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="UnitFIA_ENG1_A3";
-						description="FIA Engineer Team 1 Assistant (Mines)";
+						description="3IFB Engineer Team 1 Assistant (Mines)";
 						isPlayable=1;
 					};
 					id=707;
@@ -40360,7 +40674,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="FIA ENG1";
+							value="3IFB ENG1";
 						};
 					};
 				};
@@ -40407,7 +40721,7 @@ class Mission
 						skill=0.60000002;
 						rank="CAPTAIN";
 						name="UnitFIA_TH1_P";
-						description="FIA Transport Helo 1 Pilot";
+						description="3IFB Transport Helo 1 Pilot";
 						isPlayable=1;
 					};
 					id=709;
@@ -40545,7 +40859,7 @@ class Mission
 						skill=0.60000002;
 						rank="LIEUTENANT";
 						name="UnitFIA_TH1_CP";
-						description="FIA Transport Helo 1 Co-Pilot (Repair)";
+						description="3IFB Transport Helo 1 Co-Pilot (Repair)";
 						isPlayable=1;
 					};
 					id=710;
@@ -40729,7 +41043,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="FIA TH1";
+							value="3IFB TH1";
 						};
 					};
 				};
@@ -41160,66 +41474,6 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={3724.6453,7.681612,4405.4453};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-				skill=0.60000002;
-				name="VehCSAT_AH1";
-			};
-			id=762;
-			type="RHS_Mi24P_CAS_vdv";
-			atlOffset=0.052048683;
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="rhs_decalNumber_type";
-					expression="if(_value != 'NoChange')then{ _this setVariable ['rhs_decalNumber_type', _value];[_this,[['Number', cRHSAIRMI24NumberPlaces, _value]]] call rhs_fnc_decalsInit}";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="NoChange";
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="TMF_assignGear_full";
-					expression="[_this,_value] call tmf_assignGear_fnc_helper;";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="[""r"",""vdv_emr"",false]";
-						};
-					};
-				};
-				nAttributes=2;
-			};
-		};
-		class Item77
-		{
-			dataType="Object";
-			class PositionInfo
-			{
 				position[]={3723.28,7.4737372,4384.9316};
 			};
 			side="Empty";
@@ -41293,7 +41547,7 @@ class Mission
 				nAttributes=3;
 			};
 		};
-		class Item78
+		class Item77
 		{
 			dataType="Object";
 			class PositionInfo
@@ -41466,7 +41720,7 @@ class Mission
 				nAttributes=8;
 			};
 		};
-		class Item79
+		class Item78
 		{
 			dataType="Object";
 			class PositionInfo
@@ -41886,7 +42140,7 @@ class Mission
 				nAttributes=21;
 			};
 		};
-		class Item80
+		class Item79
 		{
 			dataType="Object";
 			class PositionInfo
@@ -41946,7 +42200,7 @@ class Mission
 				nAttributes=2;
 			};
 		};
-		class Item81
+		class Item80
 		{
 			dataType="Object";
 			class PositionInfo
@@ -42005,7 +42259,7 @@ class Mission
 				nAttributes=2;
 			};
 		};
-		class Item82
+		class Item81
 		{
 			dataType="Object";
 			class PositionInfo
@@ -42064,7 +42318,7 @@ class Mission
 				nAttributes=2;
 			};
 		};
-		class Item83
+		class Item82
 		{
 			dataType="Object";
 			class PositionInfo
@@ -42104,7 +42358,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item84
+		class Item83
 		{
 			dataType="Object";
 			class PositionInfo
@@ -42144,7 +42398,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item85
+		class Item84
 		{
 			dataType="Object";
 			class PositionInfo
@@ -42412,7 +42666,7 @@ class Mission
 				nAttributes=13;
 			};
 		};
-		class Item86
+		class Item85
 		{
 			dataType="Object";
 			class PositionInfo
@@ -42623,7 +42877,7 @@ class Mission
 				nAttributes=10;
 			};
 		};
-		class Item87
+		class Item86
 		{
 			dataType="Object";
 			class PositionInfo
@@ -42702,7 +42956,7 @@ class Mission
 				nAttributes=3;
 			};
 		};
-		class Item88
+		class Item87
 		{
 			dataType="Object";
 			class PositionInfo
@@ -42742,7 +42996,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item89
+		class Item88
 		{
 			dataType="Object";
 			class PositionInfo
@@ -42896,7 +43150,7 @@ class Mission
 				nAttributes=7;
 			};
 		};
-		class Item90
+		class Item89
 		{
 			dataType="Object";
 			class PositionInfo
@@ -42936,7 +43190,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item91
+		class Item90
 		{
 			dataType="Object";
 			class PositionInfo
@@ -42976,7 +43230,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item92
+		class Item91
 		{
 			dataType="Object";
 			class PositionInfo
@@ -43016,7 +43270,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item93
+		class Item92
 		{
 			dataType="Object";
 			class PositionInfo
@@ -43056,7 +43310,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item94
+		class Item93
 		{
 			dataType="Group";
 			side="West";
@@ -43076,7 +43330,7 @@ class Mission
 					{
 						rank="CORPORAL";
 						name="UnitFIA_AV_G";
-						description="FIA Alpha Vic Gunner";
+						description="3IFB Alpha Vic Gunner";
 						isPlayable=1;
 					};
 					id=819;
@@ -43212,7 +43466,7 @@ class Mission
 					class Attributes
 					{
 						name="UnitFIA_AV_D";
-						description="FIA Alpha Vic Driver";
+						description="3IFB Alpha Vic Driver";
 						isPlayable=1;
 					};
 					id=820;
@@ -43396,7 +43650,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="FIA AV";
+							value="3IFB AV";
 						};
 					};
 				};
@@ -43422,7 +43676,7 @@ class Mission
 				nAttributes=4;
 			};
 		};
-		class Item95
+		class Item94
 		{
 			dataType="Object";
 			class PositionInfo
@@ -43459,6 +43713,66 @@ class Mission
 					};
 				};
 				nAttributes=1;
+			};
+		};
+		class Item95
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3724.645,7.6815796,4405.4458};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				skill=0.60000002;
+				name="VehCSAT_AH1";
+			};
+			id=826;
+			type="RHS_Mi24V_vdv";
+			atlOffset=0.052000046;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="rhs_decalNumber_type";
+					expression="if(_value != 'NoChange')then{ _this setVariable ['rhs_decalNumber_type', _value];[_this,[['Number', cRHSAIRMI24NumberPlaces, _value]]] call rhs_fnc_decalsInit}";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="NoChange";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="TMF_assignGear_full";
+					expression="[_this,_value] call tmf_assignGear_fnc_helper;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="[""r"",""vdv_emr"",false]";
+						};
+					};
+				};
+				nAttributes=2;
 			};
 		};
 	};
