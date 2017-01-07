@@ -18,9 +18,9 @@ class CfgLoadouts
         displayName = "FIA (Tiger Stripe)";
         #include "fia_ts.hpp"
     };
-    class UN {
-        displayName = "United Nations";
-        #include "un.hpp"
+    class UN_MO {
+        displayName = "U.N. Peacekeepers (Mountain)";
+        #include "un_mo.hpp"
     };
     class VDV_EMR {
         displayName = "VDV (EMR)";
