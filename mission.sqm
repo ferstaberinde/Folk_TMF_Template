@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={4137.4678,40.704418,4578.3369};
-		dir[]={0.012080394,-0.41090479,-0.91173077};
-		up[]={0.0054463465,0.91157579,-0.41091391};
-		aside[]={-1.0000001,-1.0457825e-006,-0.013258016};
+		pos[]={4113.4277,54.58696,4430.1318};
+		dir[]={-0.12593609,-0.29138592,-0.94841194};
+		up[]={-0.038365275,0.95646161,-0.28893355};
+		aside[]={-0.99139225,1.3396493e-007,0.13163576};
 	};
 };
 binarizationWanted=0;
@@ -184,25 +184,6 @@ class CustomAttributes
 		name="TMF_ORBAT_Settings";
 		class Attribute0
 		{
-			property="TMF_ORBATTracker";
-			expression="false";
-			class Value
-			{
-				class data
-				{
-					class type
-					{
-						type[]=
-						{
-							"BOOL"
-						};
-					};
-					value=1;
-				};
-			};
-		};
-		class Attribute1
-		{
 			property="TMF_ORBATTrackerCondition";
 			expression="false";
 			class Value
@@ -217,6 +198,25 @@ class CustomAttributes
 						};
 					};
 					value="true";
+				};
+			};
+		};
+		class Attribute1
+		{
+			property="TMF_ORBATTracker";
+			expression="false";
+			class Value
+			{
+				class data
+				{
+					class type
+					{
+						type[]=
+						{
+							"BOOL"
+						};
+					};
+					value=1;
 				};
 			};
 		};
@@ -598,7 +598,7 @@ class CustomAttributes
 		};
 		nAttributes=6;
 	};
-	class Category4
+	class Category5
 	{
 		name="Multiplayer";
 		class Attribute0
@@ -805,29 +805,10 @@ class CustomAttributes
 		};
 		nAttributes=9;
 	};
-	class Category5
+	class Category6
 	{
 		name="Scenario";
 		class Attribute0
-		{
-			property="EnableDebugConsole";
-			expression="true";
-			class Value
-			{
-				class data
-				{
-					class type
-					{
-						type[]=
-						{
-							"SCALAR"
-						};
-					};
-					value=0;
-				};
-			};
-		};
-		class Attribute1
 		{
 			property="TMF_common_introText";
 			expression="                                [{time > 5 && {player == player}},                                {[] spawn {                                    if !(hasInterface) exitWith {};                                    private _msg = (getPos player) call BIS_fnc_locationDescription;                                    _msg = _msg + format ['<br/>%1/%2/%3', (date select 0), (date select 1), (date select 2)];                                    _msg = _msg + format ['<br/>%1', ([dayTime, 'HH:MM'] call BIS_fnc_timeToString)];                                    [                                        _msg,                                        [safezoneX + safezoneW - 0.8,0.50],                                        [safezoneY + safezoneH - 0.8,0.8],                                        5,                                        0.5                                    ] spawn BIS_fnc_dynamicText;                                };                                },nil] call CBA_fnc_waitUntilAndExecute;                            ";
@@ -843,6 +824,25 @@ class CustomAttributes
 						};
 					};
 					value=1;
+				};
+			};
+		};
+		class Attribute1
+		{
+			property="EnableDebugConsole";
+			expression="true";
+			class Value
+			{
+				class data
+				{
+					class type
+					{
+						type[]=
+						{
+							"SCALAR"
+						};
+					};
+					value=0;
 				};
 			};
 		};
@@ -12237,10 +12237,10 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={4111.1279,8.8150482,4429.0605};
+						position[]={4111.1279,5.0014391,4429.0605};
 					};
 					side="Independent";
-					flags=2;
+					flags=6;
 					class Attributes
 					{
 						skill=0.60000002;
@@ -12251,7 +12251,6 @@ class Mission
 					};
 					id=286;
 					type="I_helipilot_F";
-					atlOffset=3.8136091;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -12357,9 +12356,10 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={4116.1279,8.8631439,4427.4102};
+						position[]={4116.1279,5.0014391,4427.4102};
 					};
 					side="Independent";
+					flags=4;
 					class Attributes
 					{
 						skill=0.60000002;
@@ -12370,7 +12370,6 @@ class Mission
 					};
 					id=287;
 					type="I_Soldier_repair_F";
-					atlOffset=3.8617048;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -12476,7 +12475,6 @@ class Mission
 			{
 			};
 			id=285;
-			atlOffset=3.8136091;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -17969,7 +17967,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={4084.0593,5.0809994,4444.6719};
+						position[]={4085.8215,5.0014391,4446.0376};
 					};
 					side="Independent";
 					flags=6;
@@ -17983,7 +17981,6 @@ class Mission
 					};
 					id=469;
 					type="I_helipilot_F";
-					atlOffset=0.07956028;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -18227,7 +18224,6 @@ class Mission
 			{
 			};
 			id=468;
-			atlOffset=0.07956028;
 			class CustomAttributes
 			{
 				class Attribute0
