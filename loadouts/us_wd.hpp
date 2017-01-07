@@ -318,31 +318,17 @@ class matag : car
 class hatg : car
 {
     displayName = "HAT Gunner";
-    secondaryWeapon[] = {"rhs_weap_fgm148"};
-    backpack[] = {"B_Carryall_khk"};
-    backpackItems[] =
-    {
-        LIST_2("rhs_fgm148_magazine_AT")
-    };
+    backpack[] = {"rhs_Tow_Gun_Bag"};
 };
 class hatac : car
 {
     displayName = "HAT Ammo Carrier";
-    backpack[] = {"B_Carryall_khk"};
-    backpackItems[] =
-    {
-        LIST_2("rhs_fgm148_magazine_AT")
-    };
+    backpack[] = {"rhs_Tow_Gun_Bag"};
 };
 class hatag : car
 {
     displayName = "HAT Assistant Gunner";
-    vest[] = {"rhsusf_spc_squadleader"};
-    backpack[] = {"B_Carryall_khk"};
-    backpackItems[] =
-    {
-        LIST_2("rhs_fgm148_magazine_AT")
-    };
+    backpack[] = {"rhs_TOW_Tripod_Bag"};
     linkedItems[] =
     {
         "ItemMap",
