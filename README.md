@@ -1,14 +1,11 @@
-# Folk_TMF_Template
-**A mission template derived from the 1Tac TMF mission template for use in the Republic of Folk ARMA group.**
-
-![License image](https://img.shields.io/badge/license-MIT-blue.svg) ![Version] (https://img.shields.io/badge/version-0.1.0-green.svg)
-
-Short paragraph explaining the highlights and features of this template.
+# Folk TMF Template
+A mission template derived from the [1Tac TMF mission template](https://github.com/TMF3/TMF/blob/master/README.md) for use in the [Republic of Folk](http://www.ferstaberinde.com/folk/forums/) Arma community.
 
 ## Installation
-Clone or download the repo and copy the folder to the location of your MPMission folder under your user profile.
+Clone or download the repo and copy the folder to the location of your *MPMissions* folder under your user profile. Following [our mission naming convention](http://www.ferstaberinde.com/folk/forum/viewtopic.php?f=89&t=2297), rename the downloaded folder with your desired mission name and the suffix of the desired terrain; for example: *fk\_c20\_victory\_rose\_v1*
 
 ## Usage
+Please read our [mission making guidelines](http://www.ferstaberinde.com/folk/forum/viewtopic.php?f=89&t=2297) if you are making a mission for the [Republic of Folk](http://www.ferstaberinde.com/folk/forums/).
 
 ## Versioning
 
@@ -19,13 +16,14 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 [Contributors](https://github.com/ferstaberinde/Folk_TMF_Template/contributors) who participated in this project.
 
 ## Acknowledgements
-
-* Cptnick  
-* Head 
+ 
+* Bear
 * Boberro
+* Cptnick 
 * Fer
-* Tigershark (Github repo configuration and readme.md)
+* Head
+* Tigershark
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details 
+This project is licensed under the [Arma Public License Share-Alike (APL-SA)](https://www.bistudio.com/community/licenses/arma-public-license-share-alike). 
