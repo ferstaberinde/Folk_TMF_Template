@@ -1,5 +1,29 @@
-# Folk_TMF_Template
+# Folk TMF Template
+A mission template derived from the [1Tac TMF mission template](https://github.com/TMF3/TMF/blob/master/README.md) for use in the [Republic of Folk](http://www.ferstaberinde.com/folk/) Arma community.
 
-This mission template is derived from the 1Tac TMF mission template.
+## Installation
+Download the latest release from the [releases](https://github.com/ferstaberinde/Folk_TMF_Template/releases) page, unzip the archive and copy the resulting folder to the location of your *MPMissions* folder under your user profile. Following [our mission naming convention](http://www.ferstaberinde.com/folk/forum/viewtopic.php?f=89&t=2297), rename the downloaded folder with your desired mission name and the suffix of the desired terrain; for example: *fk\_c20\_victory\_rose\_v1*
 
-Credits: Cptnick | Head | Boberro | Fer
+## Usage
+Please read our [mission making guidelines](http://www.ferstaberinde.com/folk/forum/viewtopic.php?f=89&t=2297) if you are making a mission for the [Republic of Folk](http://www.ferstaberinde.com/folk/).
+
+## Versioning
+
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [releases](https://github.com/ferstaberinde/Folk_TMF_Template/releases) page.
+
+## Contributors
+
+[Contributors](https://github.com/ferstaberinde/Folk_TMF_Template/contributors) who participated in this project.
+
+## Acknowledgements
+ 
+* Bear
+* Boberro
+* Cptnick 
+* Fer
+* Head
+* Tigershark
+
+## License
+
+This project is licensed under the [Arma Public License Share-Alike (APL-SA)](https://www.bistudio.com/community/licenses/arma-public-license-share-alike). 
