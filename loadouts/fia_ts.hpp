@@ -73,7 +73,7 @@ class g : r
     magazines[] =
     {
         LIST_8("mbg_mag_20Rnd_556x45_M855A1_Stanag"),
-        LIST_2("rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Green"),
+        LIST_2("rof_mag_20Rnd_556x45_M855A1_Stanag_Tracer_Green"),
         LIST_2("rhs_mag_m67"),
         LIST_2("rhs_mag_an_m8hc"),
         LIST_8("rhs_mag_M433_HEDP"),
