@@ -173,8 +173,8 @@ randomSeed=13595621;
 class ScenarioData
 {
 	author="*** Insert author here. ***";
-	overViewPicture="rof_mls_1.jpg";
-	loadScreen="rof_mls_1.jpg";
+	overViewPicture="rof_mls_2.jpg";
+	loadScreen="rof_mls_2.jpg";
 	respawn=1;
 };
 class CustomAttributes
