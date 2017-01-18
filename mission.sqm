@@ -8,7 +8,7 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=827;
+		nextID=828;
 	};
 	class MarkerIDProvider
 	{
@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={3643.7324,64.3181,4538.5981};
-		dir[]={0.741835,-0.24188896,-0.62563384};
-		up[]={0.18499802,0.97011626,-0.15602066};
-		aside[]={-0.64475876,-3.8321014e-007,-0.76449841};
+		pos[]={3749.822,10.066037,4500.8115};
+		dir[]={0.11797135,-0.33616796,-0.93452376};
+		up[]={0.042114418,0.94158989,-0.33361191};
+		aside[]={-0.99221498,1.8950377e-006,-0.1252448};
 	};
 };
 binarizationWanted=0;
@@ -27,6 +27,8 @@ addons[]=
 {
 	"A3_Air_F_Heli_Light_01",
 	"A3_Characters_F",
+	"asr_ai3_cfgcamouflage",
+	"asr_ai3_cfgvehicles",
 	"rhsusf_c_weapons",
 	"A3_Weapons_F",
 	"acre_main",
@@ -184,25 +186,6 @@ class CustomAttributes
 		name="TMF_ORBAT_Settings";
 		class Attribute0
 		{
-			property="TMF_ORBATTrackerCondition";
-			expression="false";
-			class Value
-			{
-				class data
-				{
-					class type
-					{
-						type[]=
-						{
-							"STRING"
-						};
-					};
-					value="true";
-				};
-			};
-		};
-		class Attribute1
-		{
 			property="TMF_ORBATTracker";
 			expression="false";
 			class Value
@@ -217,6 +200,25 @@ class CustomAttributes
 						};
 					};
 					value=1;
+				};
+			};
+		};
+		class Attribute1
+		{
+			property="TMF_ORBATTrackerCondition";
+			expression="false";
+			class Value
+			{
+				class data
+				{
+					class type
+					{
+						type[]=
+						{
+							"STRING"
+						};
+					};
+					value="true";
 				};
 			};
 		};
@@ -810,25 +812,6 @@ class CustomAttributes
 		name="Scenario";
 		class Attribute0
 		{
-			property="TMF_common_introText";
-			expression="                                [{time > 5 && {player == player}},                                {[] spawn {                                    if !(hasInterface) exitWith {};                                    private _msg = (getPos player) call BIS_fnc_locationDescription;                                    _msg = _msg + format ['<br/>%1/%2/%3', (date select 0), (date select 1), (date select 2)];                                    _msg = _msg + format ['<br/>%1', ([dayTime, 'HH:MM'] call BIS_fnc_timeToString)];                                    [                                        _msg,                                        [safezoneX + safezoneW - 0.8,0.50],                                        [safezoneY + safezoneH - 0.8,0.8],                                        5,                                        0.5                                    ] spawn BIS_fnc_dynamicText;                                };                                },nil] call CBA_fnc_waitUntilAndExecute;                            ";
-			class Value
-			{
-				class data
-				{
-					class type
-					{
-						type[]=
-						{
-							"BOOL"
-						};
-					};
-					value=1;
-				};
-			};
-		};
-		class Attribute1
-		{
 			property="EnableDebugConsole";
 			expression="true";
 			class Value
@@ -843,6 +826,25 @@ class CustomAttributes
 						};
 					};
 					value=0;
+				};
+			};
+		};
+		class Attribute1
+		{
+			property="TMF_common_introText";
+			expression="                                [{time > 5 && {player == player}},                                {[] spawn {                                    if !(hasInterface) exitWith {};                                    private _msg = (getPos player) call BIS_fnc_locationDescription;                                    _msg = _msg + format ['<br/>%1/%2/%3', (date select 0), (date select 1), (date select 2)];                                    _msg = _msg + format ['<br/>%1', ([dayTime, 'HH:MM'] call BIS_fnc_timeToString)];                                    [                                        _msg,                                        [safezoneX + safezoneW - 0.8,0.50],                                        [safezoneY + safezoneH - 0.8,0.8],                                        5,                                        0.5                                    ] spawn BIS_fnc_dynamicText;                                };                                },nil] call CBA_fnc_waitUntilAndExecute;                            ";
+			class Value
+			{
+				class data
+				{
+					class type
+					{
+						type[]=
+						{
+							"BOOL"
+						};
+					};
+					value=1;
 				};
 			};
 		};
@@ -41485,6 +41487,7 @@ class Mission
 			};
 			id=771;
 			type="RHS_Su25SM_CAS_vvsc";
+			atlOffset=0.067939281;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -41736,6 +41739,7 @@ class Mission
 			};
 			id=779;
 			type="rhs_bmp2k_vdv";
+			atlOffset=4.7683716e-007;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -42157,6 +42161,7 @@ class Mission
 			};
 			id=783;
 			type="RHS_Mi8MTV3_vdv";
+			atlOffset=-0.17740154;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -42216,6 +42221,7 @@ class Mission
 			};
 			id=784;
 			type="RHS_Mi8MTV3_vdv";
+			atlOffset=-0.17740154;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -42326,7 +42332,6 @@ class Mission
 				position[]={4110.1963,7.8331289,4420.9688};
 			};
 			side="Empty";
-			flags=4;
 			class Attributes
 			{
 				skill=0.60000002;
@@ -42334,6 +42339,7 @@ class Mission
 			};
 			id=795;
 			type="rhsgref_un_Mi8amt";
+			atlOffset=0.28473997;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -42366,7 +42372,6 @@ class Mission
 				position[]={4134.9082,7.8331289,4420.4238};
 			};
 			side="Empty";
-			flags=4;
 			class Attributes
 			{
 				skill=0.60000002;
@@ -42374,6 +42379,7 @@ class Mission
 			};
 			id=796;
 			type="rhsgref_un_Mi8amt";
+			atlOffset=0.28473997;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -42893,7 +42899,7 @@ class Mission
 			};
 			id=803;
 			type="rhsgref_cdf_su25";
-			atlOffset=0.13243198;
+			atlOffset=0.20037127;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -43011,7 +43017,7 @@ class Mission
 			};
 			id=805;
 			type="rhsusf_m1a1fep_wd";
-			atlOffset=0.90993118;
+			atlOffset=2.2205749;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -43691,6 +43697,7 @@ class Mission
 			};
 			id=821;
 			type="rhsusf_m113_usarmy";
+			atlOffset=7.1525574e-006;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -43728,32 +43735,14 @@ class Mission
 			{
 				skill=0.60000002;
 				name="VehCSAT_AH1";
+				textures="Camo4";
 			};
-			id=826;
-			type="RHS_Mi24V_vdv";
+			id=827;
+			type="rhsgref_cdf_Mi24D_early";
 			atlOffset=0.052000046;
 			class CustomAttributes
 			{
 				class Attribute0
-				{
-					property="rhs_decalNumber_type";
-					expression="if(_value != 'NoChange')then{ _this setVariable ['rhs_decalNumber_type', _value];[_this,[['Number', cRHSAIRMI24NumberPlaces, _value]]] call rhs_fnc_decalsInit}";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="NoChange";
-						};
-					};
-				};
-				class Attribute1
 				{
 					property="TMF_assignGear_full";
 					expression="[_this,_value] call tmf_assignGear_fnc_helper;";
@@ -43772,7 +43761,64 @@ class Mission
 						};
 					};
 				};
-				nAttributes=2;
+				class Attribute1
+				{
+					property="rhs_decalNumber_type";
+					expression="if(_value != 'NoChange')then{ _this setVariable ['rhs_decalNumber_type', _value];[_this,[['Number', cRHSAIRMI24NumberPlaces, _value]]] call rhs_fnc_decalsInit}";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="AviaRed";
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="rhs_decalTail";
+					expression="[_this,[['Label', cRHSAIRMI24TailPlaces, 'Aviation',_value]]] call rhs_fnc_decalsInit";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=3;
+						};
+					};
+				};
+				class Attribute3
+				{
+					property="rhs_hideExhaust";
+					expression="_this animate ['exhaust_hide',_value,true]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=1;
+						};
+					};
+				};
+				nAttributes=4;
 			};
 		};
 	};
