@@ -3,9 +3,9 @@
 class baseMan {// Weaponless baseclass
     displayName = "Unarmed";
     // All randomized.
-    uniform[] = {"rhs_uniform_vdv_emr"};
+    uniform[] = {"rhs_uniform_vdv_flora"};
     vest[] = {};
-    backpack[] = {"rhs_assault_umbts"};
+    backpack[] = {"rhs_sidor"};
     headgear[] = {};
     goggles[] = {"default"};
     hmd[] = {};
@@ -45,14 +45,10 @@ class baseMan {// Weaponless baseclass
 class r : baseMan
 {
     displayName = "Rifleman";
-    headgear[] = 
-    {
-        "rhs_6b28_green","rhs_6b28_green_bala","rhs_6b28_green_ess","rhs_6b28_green_ess_bala",
-        "rhs_6b28","rhs_6b28_bala","rhs_6b28_ess","rhs_6b28_ess_bala"
-    };
-    vest[] = {"rhs_6b23_digi_6sh92"};
-    backpack[] = {"rhs_assault_umbts"};
-    primaryWeapon[] = {"rhs_weap_ak74m","rhs_weap_ak74m_plummag","rhs_weap_ak74m","rhs_weap_ak74m_plummag","rhs_weap_ak74m","rhs_weap_ak74m_plummag","rhs_weap_ak74m_2mag"};
+    headgear[] =  {"rhs_ssh68"};
+    vest[] = {"rhs_6b23_6sh92"};
+    backpack[] = {"rhs_sidor"};
+    primaryWeapon[] = {"rhs_weap_aks74","rhs_weap_aks74n"};
     scope[] = {};
     silencer[] = {"rhs_acc_dtk1983"};
     magazines[] =
@@ -80,8 +76,8 @@ class r_light : r
 class g : r
 {
     displayName = "Grenadier";
-    vest[] = {"rhs_6b23_digi_6sh92_vog"};
-    backpack[] = {"rhs_assault_umbts"};
+    vest[] = {"rhs_6b23_6sh92_vog"};
+    backpack[] = {"rhs_sidor"};
     primaryWeapon[] = {"rhs_weap_ak74m_gp25"};
     magazines[] +=
     {
@@ -96,7 +92,7 @@ class car : r
 class m : car 
 {
     displayName = "Medic";
-    vest[] = {"rhs_6b23_digi_medic"};
+    vest[] = {"rhs_6b23_medic"};
     backPack[] = {"rhs_assault_umbts"};
     backpackItems[] = {
         "Medikit",
@@ -120,7 +116,7 @@ class smg : r
 class ftl : g
 {
     displayName = "Fireteam Leader";
-    vest[] = {"rhs_6b23_digi_6sh92_vog_headset"};
+    vest[] = {"rhs_6b23_6sh92_vog_headset"};
     magazines[] +=
     {
         LIST_2("rhs_GRD40_Green"),
@@ -133,7 +129,7 @@ class sl : ftl
 {
     displayName = "Squad Leader";
     sidearmWeapon[] = {"rhs_weap_pya"};
-    vest[] = {"rhs_6b23_digi_6sh92_radio"};
+    vest[] = {"rhs_6b23_6sh92_radio"};
     headgear[] = {"rhs_beret_vdv1", "rhs_beret_vdv2", "rhs_beret_vdv3"};
     magazines[] +=
     {
@@ -174,7 +170,7 @@ class fac : co
     backpackItems[] = {};
     radios[] = {"ACRE_PRC117F"};
     headgear[] =  {"rhs_ssh68"};
-    vest[] = {"rhs_6b23_digi_6sh92_headset_mapcase"};
+    vest[] = {"rhs_6b23_6sh92_headset_mapcase"};
     linkedItems[] = {
         "ItemMap",
         "ItemCompass",
@@ -192,8 +188,8 @@ class ar : r
     primaryWeapon[] = {"rhs_weap_pkm"};
     bipod[] = {};
     silencer[] = {};
-    vest[] = {"rhs_6b23_digi_6sh92"};
-    backpack[] = {"rhs_assault_umbts"};
+    vest[] = {"rhs_6b23_6sh92"};
+    backpack[] = {"rhs_sidor"};
     sidearmWeapon[] = {};
     magazines[] =
     {
@@ -205,8 +201,8 @@ class ar : r
 class aar : r
 {
     displayName = "Assistant Automatic Rifleman";
-    vest[] = {"rhs_6b23_digi_6sh92_radio"};
-    backpack[] = {"rhs_assault_umbts"};
+    vest[] = {"rhs_6b23_6sh92_radio"};
+    backpack[] = {"rhs_sidor"};
     backpackItems[] =
     {
         LIST_3("rhs_100Rnd_762x54mmR")
@@ -249,7 +245,7 @@ class mmgg : r_light
 class mmgac : r_light
 {
     displayName = "MMG Ammo Carrier";
-    vest[] = {"rhs_6b23_digi_6sh92"};
+    vest[] = {"rhs_6b23_6sh92"};
     backPack[] = {"B_FieldPack_oli"};
     backpackItems[] =
     {
@@ -288,7 +284,7 @@ class hmgag : r_light
 {
     displayName = "HMG Assistant Gunner";
     backPack[] = {"RHS_Kord_Tripod_Bag"};
-    vest[] = {"rhs_6b23_digi_6sh92_radio"};
+    vest[] = {"rhs_6b23_6sh92_radio"};
     linkedItems[] =
     {
         "ItemMap",
@@ -322,7 +318,7 @@ class matac : r_light
 class matag : r_light
 {
     displayName = "MAT Assistant Gunner";
-    vest[] = {"rhs_6b23_digi_6sh92_headset"};
+    vest[] = {"rhs_6b23_6sh92_headset"};
     backpack[] = {"rhs_rpg_empty"};
     linkedItems[] =
     {
@@ -356,7 +352,7 @@ class hatac : r_light
 class hatag : r_light
 {
     displayName = "HAT Assistant Gunner";
-    vest[] = {"rhs_uniform_vdv_emr"};
+    vest[] = {"rhs_6b23_6sh92_headset"};
     secondaryWeapon[] = {};
     linkedItems[] =
     {
@@ -387,7 +383,7 @@ class mtrac : r_light
 class mtrag : r_light
 {
     displayName = "Mortar Assistant Gunner";
-    vest[] = {"rhs_6b23_digi_6sh92_headset"};
+    vest[] = {"rhs_6b23_6sh92_headset"};
     backPack[] = {"RHS_Podnos_Bipod_Bag"};
     linkedItems[] =
     {
@@ -469,8 +465,8 @@ class sp : sn
 class vc : smg
 {
     displayName = "Vehicle Commander";
-    vest[] = {"rhs_6b23_digi_6sh92_headset_mapcase"};
-    backpack[] = {"rhs_assault_umbts"};
+    vest[] = {"rhs_6b23_6sh92_headset_mapcase"};
+    backpack[] = {"rhs_sidor"};
     radios[] = {"ACRE_PRC117F"};
     headgear[] = {"rhs_tsh4"};
     goggles[] = {};
@@ -497,7 +493,7 @@ class pp : smg
     displayName = "Helicopter Pilot";
     uniform[] = {"rhs_uniform_df15"};
     vest[] = {"rhs_vydra_3m"};
-    backpack[] = {"rhs_assault_umbts"};
+    backpack[] = {"rhs_sidor"};
     radios[] = {"ACRE_PRC117F"};
     headgear[] = {"rhs_zsh7a_mike"};
     goggles[] = {};
@@ -511,7 +507,7 @@ class pcc : smg
     displayName = "Helicopter Crew Chief";
     uniform[] = {"rhs_uniform_df15"};
     vest[] = {"rhs_vydra_3m"};
-    backpack[] = {"rhs_assault_umbts"};
+    backpack[] = {"rhs_sidor"};
     headgear[] = {"rhs_zsh7a"};
     goggles[] = {};
     linkedItems[] += {"ItemGPS"};
@@ -531,7 +527,7 @@ class jp : baseMan
     displayName = "Jet pilot";
     uniform[] = {"rhs_uniform_df15"};
     vest[] = {"rhs_vydra_3m"};
-    backpack[] = {"rhs_assault_umbts"};
+    backpack[] = {"rhs_sidor"};
     radios[] = {"ACRE_PRC117F"};
     headgear[] = {"rhs_zsh7a"};
     goggles[] = {};
@@ -549,7 +545,7 @@ class jp : baseMan
 class eng : r_light
 {
     displayName = "Combat Engineer (Explosives)";
-    vest[] = {"rhs_6b23_digi_vydra_3m"};
+    vest[] = {"rhs_6b23_vydra_3m"};
     backpack[] = {"B_Carryall_oli"};
     backpackItems[] = {
         "MineDetector",
@@ -562,7 +558,7 @@ class eng : r_light
 class engm : r_light
 {
     displayName = "Combat Engineer (Mines)";
-    vest[] = {"rhs_6b23_digi_vydra_3m"};
+    vest[] = {"rhs_6b23_vydra_3m"};
     backpack[] = {"B_Carryall_oli"};
     items[] +=
     {
@@ -579,6 +575,6 @@ class UAV : smg
 {
     displayName = "UAV Operator";
     backpack[] = {};
-    vest[] = {"rhs_6b23_digi_6sh92_radio"};
+    vest[] = {"rhs_6b23_6sh92_radio"};
     linkedItems[] += {"O_UavTerminal"};
 };

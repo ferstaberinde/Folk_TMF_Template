@@ -26,6 +26,10 @@ class CfgLoadouts
         displayName = "VDV (EMR)";
         #include "vdv_emr.hpp"
     };
+    class VDV_F {
+        displayName = "VDV (Flora)";
+        #include "vdv_f.hpp"
+    };
     class VDV_MF {
         displayName = "VDV (Mountain Flora)";
         #include "vdv_mf.hpp"
