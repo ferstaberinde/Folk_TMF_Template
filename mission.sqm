@@ -17,9 +17,9 @@ class EditorData
 	class Camera
 	{
 		pos[]={4085.8784,9.0942221,4393.3442};
-		dir[]={-0.83784813,-0.41370285,-0.35653517};
-		up[]={-0.38071936,0.91037112,-0.16201231};
-		aside[]={-0.39159968,1.6939302e-006,0.9202702};
+		dir[]={-0.72074872,-0.19351083,0.66583145};
+		up[]={-0.14221191,0.98106474,0.13137329};
+		aside[]={0.6786589,-2.4074689e-007,0.73462206};
 	};
 };
 binarizationWanted=0;
@@ -211,25 +211,6 @@ class CustomAttributes
 		name="TMF_ORBAT_Settings";
 		class Attribute0
 		{
-			property="TMF_ORBATTrackerCondition";
-			expression="false";
-			class Value
-			{
-				class data
-				{
-					class type
-					{
-						type[]=
-						{
-							"STRING"
-						};
-					};
-					value="true";
-				};
-			};
-		};
-		class Attribute1
-		{
 			property="TMF_ORBATTracker";
 			expression="false";
 			class Value
@@ -244,6 +225,25 @@ class CustomAttributes
 						};
 					};
 					value=1;
+				};
+			};
+		};
+		class Attribute1
+		{
+			property="TMF_ORBATTrackerCondition";
+			expression="false";
+			class Value
+			{
+				class data
+				{
+					class type
+					{
+						type[]=
+						{
+							"STRING"
+						};
+					};
+					value="true";
 				};
 			};
 		};
@@ -837,25 +837,6 @@ class CustomAttributes
 		name="Scenario";
 		class Attribute0
 		{
-			property="EnableDebugConsole";
-			expression="true";
-			class Value
-			{
-				class data
-				{
-					class type
-					{
-						type[]=
-						{
-							"SCALAR"
-						};
-					};
-					value=0;
-				};
-			};
-		};
-		class Attribute1
-		{
 			property="TMF_common_introText";
 			expression="                                if (_value) then {                                    [{time > 5 && {player == player}},                                    {[] spawn {                                        if !(hasInterface) exitWith {};                                        private _msg = (getPos player) call BIS_fnc_locationDescription;                                        _msg = _msg + format ['<br/>%1/%2/%3', (date select 0), (date select 1), (date select 2)];                                        _msg = _msg + format ['<br/>%1', ([dayTime, 'HH:MM'] call BIS_fnc_timeToString)];                                        [                                            _msg,                                            [safezoneX + safezoneW - 0.8,0.50],                                            [safezoneY + safezoneH - 0.8,0.8],                                            5,                                            0.5                                        ] spawn BIS_fnc_dynamicText;                                    };                                    },nil] call CBA_fnc_waitUntilAndExecute;                                };                            ";
 			class Value
@@ -870,6 +851,25 @@ class CustomAttributes
 						};
 					};
 					value=1;
+				};
+			};
+		};
+		class Attribute1
+		{
+			property="EnableDebugConsole";
+			expression="true";
+			class Value
+			{
+				class data
+				{
+					class type
+					{
+						type[]=
+						{
+							"SCALAR"
+						};
+					};
+					value=0;
 				};
 			};
 		};
@@ -43644,7 +43644,6 @@ class Mission
 			};
 			id=821;
 			type="rhsusf_m113_usarmy";
-			atlOffset=7.1525574e-006;
 			class CustomAttributes
 			{
 				class Attribute0
