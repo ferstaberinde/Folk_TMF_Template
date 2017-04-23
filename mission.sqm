@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={4292.0273,18.443811,4253.3188};
-		dir[]={-0.30246025,-0.29296672,-0.90708655};
-		up[]={-0.09267956,0.95610958,-0.2779499};
-		aside[]={-0.94870216,-2.7596252e-007,0.3163386};
+		pos[]={3748.4976,12.104371,4379.1118};
+		dir[]={-0.057165518,-0.40724206,0.91166365};
+		up[]={-0.025490887,0.91328686,0.406495};
+		aside[]={0.99815315,1.981738e-006,0.06258785};
 	};
 };
 binarizationWanted=0;
@@ -29,6 +29,7 @@ addons[]=
 	"A3_Characters_F",
 	"asr_ai3_cfgcamouflage",
 	"asr_ai3_cfgvehicles",
+	"rhs_c_troops",
 	"A3_Characters_F_Exp",
 	"cba_xeh",
 	"rhsusf_c_weapons",
@@ -50,7 +51,7 @@ class AddonsMetaData
 {
 	class List
 	{
-		items=17;
+		items=18;
 		class Item0
 		{
 			className="A3_Air_F";
@@ -67,103 +68,110 @@ class AddonsMetaData
 		};
 		class Item2
 		{
+			className="rhs_c_troops";
+			name="AFRF Infantry & Equipment";
+			author="Red Hammer Studios";
+			url="http://www.rhsmods.org/";
+		};
+		class Item3
+		{
 			className="A3_Characters_F_Exp";
 			name="Arma 3 Apex - Characters and Clothing";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item3
+		class Item4
 		{
 			className="rhsusf_c_weapons";
 			name="RHSUSF Weapons & Accessories";
 			author="Red Hammer Studios";
 			url="http://www.rhsmods.org/";
 		};
-		class Item4
+		class Item5
 		{
 			className="A3_Weapons_F";
 			name="Arma 3 Alpha - Weapons and Accessories";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item5
+		class Item6
 		{
 			className="acre_main";
 			name="ACRE2 - Main";
 			author="ACRE2Team";
 			url="https://github.com/IDI-Systems/acre2";
 		};
-		class Item6
+		class Item7
 		{
 			className="rhsgref_c_troops";
 			name="GREF Infantry & Equipment";
 			author="Red Hammer Studios";
 			url="http://www.rhsmods.org/";
 		};
-		class Item7
+		class Item8
 		{
 			className="A3_Modules_F";
 			name="Arma 3 Alpha - Scripted Modules";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item8
+		class Item9
 		{
 			className="rhs_c_a2port_air";
 			name="A2 ported air";
 			author="Red Hammer Studios";
 			url="http://www.rhsmods.org/";
 		};
-		class Item9
+		class Item10
 		{
 			className="rhs_c_sprut";
 			name="BMD-4 & Sprut-SD";
 			author="Red Hammer Studios";
 			url="http://www.rhsmods.org/";
 		};
-		class Item10
+		class Item11
 		{
 			className="rhs_c_bmp";
 			name="BMP-1 & 2 IFV";
 			author="Red Hammer Studios";
 			url="http://www.rhsmods.org/";
 		};
-		class Item11
+		class Item12
 		{
 			className="RHS_US_A2_AirImport";
 			name="RHSUSF A2 Air Ports";
 			author="Red Hammer Studios";
 			url="http://www.rhsmods.org/";
 		};
-		class Item12
+		class Item13
 		{
 			className="rhsgref_c_vehicles_ret";
 			name="GREF Vehicle Retextures";
 			author="Red Hammer Studios";
 			url="http://www.rhsmods.org/";
 		};
-		class Item13
+		class Item14
 		{
 			className="rhsusf_c_m1a1";
 			name="M1A1 Tanks";
 			author="Red Hammer Studios";
 			url="http://www.rhsmods.org/";
 		};
-		class Item14
+		class Item15
 		{
 			className="RHS_US_A2Port_Armor";
 			name="M2 Bradley IFV";
 			author="Red Hammer Studios";
 			url="http://www.rhsmods.org/";
 		};
-		class Item15
+		class Item16
 		{
 			className="rhsusf_c_ch53";
 			name="CH-53 Helicopter";
 			author="Red Hammer Studios";
 			url="http://www.rhsmods.org/";
 		};
-		class Item16
+		class Item17
 		{
 			className="rhsusf_c_m113";
 			name="M113A3 APC";
@@ -357,7 +365,7 @@ class CustomAttributes
 							"STRING"
 						};
 					};
-					value="[[""English"",[1]],[""Greek"",[2]],[""Farsi"",[0]]]";
+					value="[[""English"",[1]],[""Greek"",[2]],[""Russian"",[0]]]";
 				};
 			};
 		};
@@ -457,7 +465,7 @@ class CustomAttributes
 							"STRING"
 						};
 					};
-					value="[[""NATO"",[""blu_f""],""briefing\briefing_nato.sqf""],[""CSAT"",[""opf_f""],""briefing\briefing_csat.sqf""],[""AAF"",[""ind_f""],""briefing\briefing_aaf.sqf""],[""FIA"",[""blu_g_f"",""blu_ctrg_f""],""briefing\briefing_fia.sqf""]]";
+					value="[[""NATO"",[""blu_f""],""briefing\briefing_nato.sqf""],[""CSAT"",[""opf_f"",0],""briefing\briefing_csat.sqf""],[""AAF"",[""ind_f"",2],""briefing\briefing_aaf.sqf""],[""FIA"",[""blu_g_f"",""blu_ctrg_f""],""briefing\briefing_fia.sqf""]]";
 				};
 			};
 		};
@@ -601,7 +609,7 @@ class CustomAttributes
 		};
 		nAttributes=6;
 	};
-	class Category5
+	class Category4
 	{
 		name="Multiplayer";
 		class Attribute0
@@ -808,29 +816,10 @@ class CustomAttributes
 		};
 		nAttributes=9;
 	};
-	class Category6
+	class Category5
 	{
 		name="Scenario";
 		class Attribute0
-		{
-			property="EnableDebugConsole";
-			expression="true";
-			class Value
-			{
-				class data
-				{
-					class type
-					{
-						type[]=
-						{
-							"SCALAR"
-						};
-					};
-					value=0;
-				};
-			};
-		};
-		class Attribute1
 		{
 			property="TMF_common_introText";
 			expression="                                if (_value) then {                                    [{time > 5 && {player == player}},                                    {[] spawn {                                        if !(hasInterface) exitWith {};                                        private _msg = (getPos player) call BIS_fnc_locationDescription;                                        _msg = _msg + format ['<br/>%1/%2/%3', (date select 0), (date select 1), (date select 2)];                                        _msg = _msg + format ['<br/>%1', ([dayTime, 'HH:MM'] call BIS_fnc_timeToString)];                                        [                                            _msg,                                            [safezoneX + safezoneW - 0.8,0.50],                                            [safezoneY + safezoneH - 0.8,0.8],                                            5,                                            0.5                                        ] spawn BIS_fnc_dynamicText;                                    };                                    },nil] call CBA_fnc_waitUntilAndExecute;                                };                            ";
@@ -846,6 +835,25 @@ class CustomAttributes
 						};
 					};
 					value=1;
+				};
+			};
+		};
+		class Attribute1
+		{
+			property="EnableDebugConsole";
+			expression="true";
+			class Value
+			{
+				class data
+				{
+					class type
+					{
+						type[]=
+						{
+							"SCALAR"
+						};
+					};
+					value=0;
 				};
 			};
 		};
@@ -5011,7 +5019,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=158;
-					type="O_officer_F";
+					type="rhs_vdv_flora_officer";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -5149,7 +5157,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=159;
-					type="O_medic_F";
+					type="rhs_vdv_flora_medic";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -5287,7 +5295,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=160;
-					type="O_soldier_UAV_F";
+					type="rhs_vdv_flora_rifleman";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -5424,7 +5432,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=161;
-					type="O_soldier_repair_F";
+					type="rhs_vdv_flora_engineer";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -5542,7 +5550,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=162;
-					type="O_Soldier_F";
+					type="rhs_vdv_flora_rifleman";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -5793,7 +5801,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=169;
-					type="O_Soldier_SL_F";
+					type="rhs_vdv_flora_sergeant";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -5932,7 +5940,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=170;
-					type="O_medic_F";
+					type="rhs_vdv_flora_medic";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -6183,7 +6191,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=172;
-					type="O_Soldier_TL_F";
+					type="rhs_vdv_flora_efreitor";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -6359,7 +6367,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=173;
-					type="O_Soldier_AR_F";
+					type="rhs_vdv_flora_machinegunner";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -6535,7 +6543,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=174;
-					type="O_Soldier_AAR_F";
+					type="rhs_vdv_flora_machinegunner_assistant";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -6711,7 +6719,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=175;
-					type="O_Soldier_LAT_F";
+					type="rhs_vdv_flora_LAT";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -6887,7 +6895,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=176;
-					type="O_Soldier_F";
+					type="rhs_vdv_flora_rifleman";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -7006,7 +7014,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=177;
-					type="O_Soldier_F";
+					type="rhs_vdv_flora_rifleman";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -7276,7 +7284,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=179;
-					type="O_Soldier_TL_F";
+					type="rhs_vdv_flora_efreitor";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -7452,7 +7460,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=180;
-					type="O_Soldier_AR_F";
+					type="rhs_vdv_flora_machinegunner";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -7628,7 +7636,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=181;
-					type="O_Soldier_AAR_F";
+					type="rhs_vdv_flora_machinegunner_assistant";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -7804,7 +7812,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=182;
-					type="O_Soldier_LAT_F";
+					type="rhs_vdv_flora_LAT";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -7980,7 +7988,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=183;
-					type="O_Soldier_F";
+					type="rhs_vdv_flora_rifleman";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -8137,7 +8145,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=184;
-					type="O_Soldier_F";
+					type="rhs_vdv_flora_rifleman";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -8406,7 +8414,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=220;
-					type="O_helipilot_F";
+					type="rhs_pilot_combat_heli";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -8525,7 +8533,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=221;
-					type="O_soldier_repair_F";
+					type="rhs_vdv_flora_engineer";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -8644,7 +8652,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=222;
-					type="O_helicrew_F";
+					type="rhs_pilot_combat_heli";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -8763,7 +8771,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=823;
-					type="O_helicrew_F";
+					type="rhs_pilot_combat_heli";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -14790,7 +14798,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=363;
-					type="O_helipilot_F";
+					type="rhs_pilot_combat_heli";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -14909,7 +14917,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=364;
-					type="O_soldier_repair_F";
+					type="rhs_vdv_flora_engineer";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -15028,7 +15036,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=365;
-					type="O_helicrew_F";
+					type="rhs_pilot_combat_heli";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -15166,7 +15174,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=825;
-					type="O_helicrew_F";
+					type="rhs_pilot_combat_heli";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -15416,7 +15424,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=385;
-					type="O_crew_F";
+					type="rhs_vdv_flora_crew_commander";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -15573,7 +15581,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=386;
-					type="O_crew_F";
+					type="rhs_vdv_flora_combatcrew";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -15729,7 +15737,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=387;
-					type="O_soldier_repair_F";
+					type="rhs_vdv_flora_engineer";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -15998,7 +16006,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=417;
-					type="O_crew_F";
+					type="rhs_vdv_flora_crew_commander";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -16136,7 +16144,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=418;
-					type="O_crew_F";
+					type="rhs_vdv_flora_combatcrew";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -16273,7 +16281,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=419;
-					type="O_soldier_repair_F";
+					type="rhs_vdv_flora_engineer";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -16504,7 +16512,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=421;
-					type="O_helipilot_F";
+					type="rhs_pilot_combat_heli";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -16642,7 +16650,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=422;
-					type="O_soldier_repair_F";
+					type="rhs_vdv_flora_engineer";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -18647,7 +18655,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=492;
-					type="O_Soldier_A_F";
+					type="rhs_vdv_flora_rifleman";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -18784,7 +18792,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=493;
-					type="O_Soldier_AR_F";
+					type="rhs_vdv_flora_machinegunner";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -18920,7 +18928,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=746;
-					type="O_Soldier_A_F";
+					type="rhs_vdv_flora_rifleman";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -19132,7 +19140,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=495;
-					type="O_Soldier_A_F";
+					type="rhs_vdv_flora_rifleman";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -19269,7 +19277,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=496;
-					type="O_Soldier_AR_F";
+					type="rhs_vdv_flora_machinegunner";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -19386,7 +19394,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=747;
-					type="O_Soldier_A_F";
+					type="rhs_vdv_flora_rifleman";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -19598,7 +19606,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=498;
-					type="O_support_AMG_F";
+					type="rhs_vdv_flora_machinegunner_assistant";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -19735,7 +19743,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=499;
-					type="O_support_MG_F";
+					type="rhs_vdv_flora_machinegunner";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -19871,7 +19879,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=748;
-					type="O_Soldier_A_F";
+					type="rhs_vdv_flora_rifleman";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -20083,7 +20091,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=501;
-					type="O_Soldier_AAT_F";
+					type="rhs_vdv_flora_strelok_rpg_assist";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -20220,7 +20228,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=502;
-					type="O_Soldier_AT_F";
+					type="rhs_vdv_flora_grenadier_rpg";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -20356,7 +20364,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=749;
-					type="O_Soldier_A_F";
+					type="rhs_vdv_flora_rifleman";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -20568,7 +20576,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=504;
-					type="O_Soldier_AAT_F";
+					type="rhs_vdv_flora_strelok_rpg_assist";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -20705,7 +20713,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=505;
-					type="O_Soldier_AT_F";
+					type="rhs_vdv_flora_grenadier_rpg";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -20822,7 +20830,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=750;
-					type="O_Soldier_A_F";
+					type="rhs_vdv_flora_rifleman";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -21034,7 +21042,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=507;
-					type="O_Soldier_AAT_F";
+					type="rhs_vdv_flora_strelok_rpg_assist";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -21171,7 +21179,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=508;
-					type="O_Soldier_AT_F";
+					type="rhs_vdv_flora_grenadier_rpg";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -21307,7 +21315,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=751;
-					type="O_Soldier_A_F";
+					type="rhs_vdv_flora_strelok_rpg_assist";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -21519,7 +21527,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=510;
-					type="O_support_AMort_F";
+					type="rhs_vdv_flora_rifleman_lite";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -21656,7 +21664,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=511;
-					type="O_support_Mort_F";
+					type="rhs_vdv_flora_rifleman_lite";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -21793,7 +21801,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=759;
-					type="O_support_AMort_F";
+					type="rhs_vdv_flora_rifleman_lite";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -22024,7 +22032,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=513;
-					type="O_Soldier_AAA_F";
+					type="rhs_vdv_flora_aa";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -22161,7 +22169,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=514;
-					type="O_Soldier_AA_F";
+					type="rhs_vdv_flora_aa";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -22392,7 +22400,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=519;
-					type="O_spotter_F";
+					type="rhs_vdv_flora_marksman";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -22529,7 +22537,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=520;
-					type="O_sniper_F";
+					type="rhs_vdv_flora_marksman";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -22760,7 +22768,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=522;
-					type="O_engineer_F";
+					type="rhs_vdv_flora_engineer";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -22897,7 +22905,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=523;
-					type="O_engineer_F";
+					type="rhs_vdv_flora_engineer";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -23015,7 +23023,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=524;
-					type="O_engineer_F";
+					type="rhs_vdv_flora_engineer";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -23133,7 +23141,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=525;
-					type="O_engineer_F";
+					type="rhs_vdv_flora_engineer";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -23345,7 +23353,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=532;
-					type="O_helipilot_F";
+					type="rhs_pilot_combat_heli";
 					class CustomAttributes
 					{
 						class Attribute0
