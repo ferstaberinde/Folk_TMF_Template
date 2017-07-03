@@ -8,7 +8,7 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=829;
+		nextID=830;
 	};
 	class MarkerIDProvider
 	{
@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={4085.8784,9.0942221,4393.3442};
-		dir[]={-0.72074872,-0.19351083,0.66583145};
-		up[]={-0.14221191,0.98106474,0.13137329};
-		aside[]={0.6786589,-2.4074689e-007,0.73462206};
+		pos[]={3967.9436,6.6551504,4319.6411};
+		dir[]={0.50364023,-0.46207079,-0.73013097};
+		up[]={0.26239505,0.88680387,-0.38039193};
+		aside[]={-0.8232581,2.0979205e-006,-0.56787318};
 	};
 };
 binarizationWanted=0;
@@ -211,25 +211,6 @@ class CustomAttributes
 		name="TMF_ORBAT_Settings";
 		class Attribute0
 		{
-			property="TMF_ORBATTracker";
-			expression="false";
-			class Value
-			{
-				class data
-				{
-					class type
-					{
-						type[]=
-						{
-							"BOOL"
-						};
-					};
-					value=1;
-				};
-			};
-		};
-		class Attribute1
-		{
 			property="TMF_ORBATTrackerCondition";
 			expression="false";
 			class Value
@@ -244,6 +225,25 @@ class CustomAttributes
 						};
 					};
 					value="true";
+				};
+			};
+		};
+		class Attribute1
+		{
+			property="TMF_ORBATTracker";
+			expression="false";
+			class Value
+			{
+				class data
+				{
+					class type
+					{
+						type[]=
+						{
+							"BOOL"
+						};
+					};
+					value=1;
 				};
 			};
 		};
@@ -292,7 +292,7 @@ class CustomAttributes
 		name="TMF_MissionAcre2Attributes";
 		class Attribute0
 		{
-			property="TMF_AcreAIReveal";
+			property="TMF_AcreNetworkEnabled";
 			expression="false";
 			class Value
 			{
@@ -311,44 +311,6 @@ class CustomAttributes
 		};
 		class Attribute1
 		{
-			property="TMF_AcreTerrainLoss";
-			expression="false";
-			class Value
-			{
-				class data
-				{
-					class type
-					{
-						type[]=
-						{
-							"SCALAR"
-						};
-					};
-					value=1;
-				};
-			};
-		};
-		class Attribute2
-		{
-			property="TMF_AcreNetworkEnabled";
-			expression="false";
-			class Value
-			{
-				class data
-				{
-					class type
-					{
-						type[]=
-						{
-							"BOOL"
-						};
-					};
-					value=1;
-				};
-			};
-		};
-		class Attribute3
-		{
 			property="TMF_AcreAddRadioActions";
 			expression="false";
 			class Value
@@ -366,7 +328,7 @@ class CustomAttributes
 				};
 			};
 		};
-		class Attribute4
+		class Attribute2
 		{
 			property="TMF_AcreBabelSettings";
 			expression="false";
@@ -385,26 +347,7 @@ class CustomAttributes
 				};
 			};
 		};
-		class Attribute5
-		{
-			property="TMF_AcreFullDuplex";
-			expression="false";
-			class Value
-			{
-				class data
-				{
-					class type
-					{
-						type[]=
-						{
-							"BOOL"
-						};
-					};
-					value=0;
-				};
-			};
-		};
-		class Attribute6
+		class Attribute3
 		{
 			property="TMF_AcreSettings";
 			expression="false";
@@ -423,7 +366,7 @@ class CustomAttributes
 				};
 			};
 		};
-		class Attribute7
+		class Attribute4
 		{
 			property="TMF_AcreBabelEnabled";
 			expression="false";
@@ -442,26 +385,7 @@ class CustomAttributes
 				};
 			};
 		};
-		class Attribute8
-		{
-			property="TMF_AcreInterference";
-			expression="false";
-			class Value
-			{
-				class data
-				{
-					class type
-					{
-						type[]=
-						{
-							"BOOL"
-						};
-					};
-					value=1;
-				};
-			};
-		};
-		nAttributes=9;
+		nAttributes=5;
 	};
 	class Category2
 	{
@@ -837,25 +761,6 @@ class CustomAttributes
 		name="Scenario";
 		class Attribute0
 		{
-			property="TMF_common_introText";
-			expression="                                if (_value) then {                                    [{time > 5 && {player == player}},                                    {[] spawn {                                        if !(hasInterface) exitWith {};                                        private _msg = (getPos player) call BIS_fnc_locationDescription;                                        _msg = _msg + format ['<br/>%1/%2/%3', (date select 0), (date select 1), (date select 2)];                                        _msg = _msg + format ['<br/>%1', ([dayTime, 'HH:MM'] call BIS_fnc_timeToString)];                                        [                                            _msg,                                            [safezoneX + safezoneW - 0.8,0.50],                                            [safezoneY + safezoneH - 0.8,0.8],                                            5,                                            0.5                                        ] spawn BIS_fnc_dynamicText;                                    };                                    },nil] call CBA_fnc_waitUntilAndExecute;                                };                            ";
-			class Value
-			{
-				class data
-				{
-					class type
-					{
-						type[]=
-						{
-							"BOOL"
-						};
-					};
-					value=1;
-				};
-			};
-		};
-		class Attribute1
-		{
 			property="EnableDebugConsole";
 			expression="true";
 			class Value
@@ -870,6 +775,25 @@ class CustomAttributes
 						};
 					};
 					value=0;
+				};
+			};
+		};
+		class Attribute1
+		{
+			property="TMF_common_introText";
+			expression="                                if (_value) then {                                    [{time > 5 && {player == player}},                                    {[] spawn {                                        if !(hasInterface) exitWith {};                                        private _msg = (getPos player) call BIS_fnc_locationDescription;                                        _msg = _msg + format ['<br/>%1/%2/%3', (date select 0), (date select 1), (date select 2)];                                        _msg = _msg + format ['<br/>%1', ([dayTime, 'HH:MM'] call BIS_fnc_timeToString)];                                        [                                            _msg,                                            [safezoneX + safezoneW - 0.8,0.50],                                            [safezoneY + safezoneH - 0.8,0.8],                                            5,                                            0.5                                        ] spawn BIS_fnc_dynamicText;                                    };                                    },nil] call CBA_fnc_waitUntilAndExecute;                                };                            ";
+			class Value
+			{
+				class data
+				{
+					class type
+					{
+						type[]=
+						{
+							"BOOL"
+						};
+					};
+					value=1;
 				};
 			};
 		};
@@ -902,7 +826,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=96;
+		items=97;
 		class Item0
 		{
 			dataType="Object";
@@ -44016,6 +43940,18 @@ class Mission
 				};
 				nAttributes=12;
 			};
+		};
+		class Item96
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={3969.6299,5,4317.6431};
+			};
+			name="hc_1";
+			isPlayable=1;
+			id=829;
+			type="HeadlessClient_F";
 		};
 	};
 };
