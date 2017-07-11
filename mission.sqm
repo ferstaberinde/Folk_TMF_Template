@@ -8,7 +8,7 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=838;
+		nextID=850;
 	};
 	class MarkerIDProvider
 	{
@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={3964.0037,146.59448,4683.3394};
-		dir[]={0.01697175,-0.43790379,-0.89899838};
-		up[]={0.0082673682,0.89897358,-0.43790027};
-		aside[]={-0.99993718,-7.1810382e-007,-0.018876407};
+		pos[]={4160.2197,30,4420.6328};
+		dir[]={0,-0.70710683,0.70710683};
+		up[]={0,0.70710677,0.70710677};
+		aside[]={0.99999994,0,-0};
 	};
 };
 binarizationWanted=0;
@@ -211,25 +211,6 @@ class CustomAttributes
 		name="TMF_ORBAT_Settings";
 		class Attribute0
 		{
-			property="TMF_ORBATTracker";
-			expression="false";
-			class Value
-			{
-				class data
-				{
-					class type
-					{
-						type[]=
-						{
-							"BOOL"
-						};
-					};
-					value=1;
-				};
-			};
-		};
-		class Attribute1
-		{
 			property="TMF_ORBATTrackerCondition";
 			expression="false";
 			class Value
@@ -244,6 +225,25 @@ class CustomAttributes
 						};
 					};
 					value="true";
+				};
+			};
+		};
+		class Attribute1
+		{
+			property="TMF_ORBATTracker";
+			expression="false";
+			class Value
+			{
+				class data
+				{
+					class type
+					{
+						type[]=
+						{
+							"BOOL"
+						};
+					};
+					value=1;
 				};
 			};
 		};
@@ -281,7 +281,7 @@ class CustomAttributes
 							"STRING"
 						};
 					};
-					value="[[""OPF_F"",[[0,""1PLT"",""x\tmf\addons\orbat\textures\blue_inf.paa"",""x\tmf\addons\orbat\textures\modif_3dot.paa"",""1st Platoon"",0],[[[5,""A"",""x\tmf\addons\orbat\textures\red_inf.paa"",""x\tmf\addons\orbat\textures\modif_dot.paa"",""Alpha Squad"",0],[]],[[6,""B"",""x\tmf\addons\orbat\textures\blue_inf.paa"",""x\tmf\addons\orbat\textures\modif_dot.paa"",""Bravo Squad"",2],[]],[[7,""C"",""x\tmf\addons\orbat\textures\green_inf.paa"",""x\tmf\addons\orbat\textures\modif_dot.paa"",""Charlie Squad"",5],[]]]]],[""BLU_F"",[[1,""1PLT"",""x\tmf\addons\orbat\textures\yellow_inf.paa"",""x\tmf\addons\orbat\textures\modif_3dot.paa"",""1st Platoon"",0],[[[8,""A"",""x\tmf\addons\orbat\textures\red_inf.paa"",""x\tmf\addons\orbat\textures\modif_dot.paa"",""Alpha Squad"",-7],[]],[[9,""B"",""x\tmf\addons\orbat\textures\blue_inf.paa"",""x\tmf\addons\orbat\textures\modif_dot.paa"",""Bravo Squad"",-6],[]],[[10,""C"",""x\tmf\addons\orbat\textures\green_inf.paa"",""x\tmf\addons\orbat\textures\modif_dot.paa"",""Charlie Squad"",-5],[]]]]],[""BLU_G_F"",[[2,""1PLT"",""x\tmf\addons\orbat\textures\yellow_inf.paa"",""x\tmf\addons\orbat\textures\modif_3dot.paa"",""1st Platoon"",0],[[[11,""A"",""x\tmf\addons\orbat\textures\red_inf.paa"",""x\tmf\addons\orbat\textures\modif_dot.paa"",""Alpha Squad"",-6],[]],[[12,""B"",""x\tmf\addons\orbat\textures\blue_inf.paa"",""x\tmf\addons\orbat\textures\modif_dot.paa"",""Bravo Squad"",-4],[]],[[13,""C"",""x\tmf\addons\orbat\textures\green_inf.paa"",""x\tmf\addons\orbat\textures\modif_dot.paa"",""Charlie Squad"",0],[]]]]],[""IND_F"",[[3,""1PLT"",""x\tmf\addons\orbat\textures\yellow_inf.paa"",""x\tmf\addons\orbat\textures\modif_3dot.paa"",""1st Platoon"",0],[[[14,""A"",""x\tmf\addons\orbat\textures\red_inf.paa"",""x\tmf\addons\orbat\textures\modif_dot.paa"",""Alpha Squad"",-8],[]],[[15,""B"",""x\tmf\addons\orbat\textures\blue_inf.paa"",""x\tmf\addons\orbat\textures\modif_dot.paa"",""Bravo Squad"",-7],[]],[[16,""C"",""x\tmf\addons\orbat\textures\green_inf.paa"",""x\tmf\addons\orbat\textures\modif_dot.paa"",""Charlie Squad"",-6],[]]]]],[""CIV_F"",[[17,"""","""","""","""",0],[]]]]";
+					value="[[0,[[0,"""","""","""",""Platoon"",0],[]]]]";
 				};
 			};
 		};
@@ -6313,7 +6313,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="[""x\tmf\addons\orbat\textures\red_sl_flag.paa"",""ASL"",-4]";
+									value="[""x\tmf\addons\orbat\textures\red_sl_flag.paa"",""ASL"",-2]";
 								};
 							};
 						};
@@ -6452,7 +6452,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="[""x\tmf\addons\orbat\textures\red_cross.paa"",""AM"",-2]";
+									value="[""x\tmf\addons\orbat\textures\red_cross.paa"",""AM"",-1]";
 								};
 							};
 						};
@@ -6576,7 +6576,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="["""","""","""",-5]";
+							value="["""","""","""",-4]";
 						};
 					};
 				};
@@ -6633,7 +6633,7 @@ class Mission
 									"SCALAR"
 								};
 							};
-							value=5;
+							value=-1;
 						};
 					};
 				};
@@ -7726,7 +7726,7 @@ class Mission
 									"SCALAR"
 								};
 							};
-							value=5;
+							value=-1;
 						};
 					};
 				};
@@ -8857,7 +8857,7 @@ class Mission
 									"SCALAR"
 								};
 							};
-							value=5;
+							value=-1;
 						};
 					};
 				};
@@ -8872,125 +8872,6 @@ class Mission
 			{
 				items=4;
 				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={3748.5623,5.0014391,4418.2051};
-					};
-					side="East";
-					flags=6;
-					class Attributes
-					{
-						skill=0.60000002;
-						rank="CAPTAIN";
-						name="UnitCSAT_TH1_P";
-						description="VDV Transport Helo 1 Pilot";
-						isPlayable=1;
-					};
-					id=220;
-					type="rhs_pilot_combat_heli";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="TMF_assignGear_full";
-							expression="[_this,_value] call tmf_assignGear_fnc_helper;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="[""pp"",""vdv_afg"",true]";
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="TMF_Channellist";
-							expression="_this setVariable ['TMF_Channellist',_value,true];";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="[]";
-								};
-							};
-						};
-						class Attribute2
-						{
-							property="TMF_assignGear_role";
-							expression="false";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="pp";
-								};
-							};
-						};
-						class Attribute3
-						{
-							property="TMF_assignGear_enabled";
-							expression="false";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"BOOL"
-										};
-									};
-									value=1;
-								};
-							};
-						};
-						class Attribute4
-						{
-							property="TMF_assignGear_faction";
-							expression="false";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="vdv_afg";
-								};
-							};
-						};
-						nAttributes=5;
-					};
-				};
-				class Item1
 				{
 					dataType="Object";
 					class PositionInfo
@@ -9109,6 +8990,125 @@ class Mission
 						nAttributes=5;
 					};
 				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3748.5623,5.0014391,4418.2051};
+					};
+					side="East";
+					flags=6;
+					class Attributes
+					{
+						skill=0.60000002;
+						rank="CAPTAIN";
+						name="UnitCSAT_TH1_P";
+						description="VDV Transport Helo 1 Pilot";
+						isPlayable=1;
+					};
+					id=839;
+					type="rhs_vdv_flora_crew";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="TMF_assignGear_full";
+							expression="[_this,_value] call tmf_assignGear_fnc_helper;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="[""pp"",""vdv_afg"",true]";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="TMF_Channellist";
+							expression="_this setVariable ['TMF_Channellist',_value,true];";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="[]";
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="TMF_assignGear_role";
+							expression="false";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="pp";
+								};
+							};
+						};
+						class Attribute3
+						{
+							property="TMF_assignGear_enabled";
+							expression="false";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=1;
+								};
+							};
+						};
+						class Attribute4
+						{
+							property="TMF_assignGear_faction";
+							expression="false";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="vdv_afg";
+								};
+							};
+						};
+						nAttributes=5;
+					};
+				};
 				class Item2
 				{
 					dataType="Object";
@@ -9126,8 +9126,8 @@ class Mission
 						description="VDV Transport Helo 1 Loadmaster";
 						isPlayable=1;
 					};
-					id=222;
-					type="rhs_pilot_combat_heli";
+					id=840;
+					type="rhs_vdv_flora_crew";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -9245,8 +9245,8 @@ class Mission
 						description="VDV Transport Helo 1 Gunner";
 						isPlayable=1;
 					};
-					id=823;
-					type="rhs_pilot_combat_heli";
+					id=841;
+					type="rhs_vdv_flora_crew";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -10650,7 +10650,7 @@ class Mission
 									"SCALAR"
 								};
 							};
-							value=14;
+							value=-1;
 						};
 					};
 				};
@@ -11775,7 +11775,7 @@ class Mission
 									"SCALAR"
 								};
 							};
-							value=14;
+							value=-1;
 						};
 					};
 				};
@@ -12900,7 +12900,7 @@ class Mission
 									"SCALAR"
 								};
 							};
-							value=14;
+							value=-1;
 						};
 					};
 				};
@@ -12915,125 +12915,6 @@ class Mission
 			{
 				items=2;
 				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={4110.9136,5.0014391,4431.7231};
-					};
-					side="Independent";
-					flags=6;
-					class Attributes
-					{
-						skill=0.60000002;
-						rank="CAPTAIN";
-						name="UnitAAF_TH1_P";
-						description="UN Transport Helo 1 Pilot";
-						isPlayable=1;
-					};
-					id=286;
-					type="rhssaf_airforce_pilot_transport_heli";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="TMF_assignGear_full";
-							expression="[_this,_value] call tmf_assignGear_fnc_helper;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="[""pp"",""un_mo"",true]";
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="TMF_Channellist";
-							expression="_this setVariable ['TMF_Channellist',_value,true];";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="[]";
-								};
-							};
-						};
-						class Attribute2
-						{
-							property="TMF_assignGear_role";
-							expression="false";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="pp";
-								};
-							};
-						};
-						class Attribute3
-						{
-							property="TMF_assignGear_enabled";
-							expression="false";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"BOOL"
-										};
-									};
-									value=1;
-								};
-							};
-						};
-						class Attribute4
-						{
-							property="TMF_assignGear_faction";
-							expression="false";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="un_mo";
-								};
-							};
-						};
-						nAttributes=5;
-					};
-				};
-				class Item1
 				{
 					dataType="Object";
 					class PositionInfo
@@ -13150,6 +13031,182 @@ class Mission
 							};
 						};
 						nAttributes=5;
+					};
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={4110.9141,5.0014391,4431.7227};
+					};
+					side="Independent";
+					flags=6;
+					class Attributes
+					{
+						skill=0.60000002;
+						rank="CAPTAIN";
+						name="UnitAAF_TH1_P";
+						description="UN Transport Helo 1 Pilot";
+						isPlayable=1;
+					};
+					id=849;
+					type="rhssaf_un_m10_digital_desert_crew";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="TMF_SpecialistMarker";
+							expression="_this setVariable ['TMF_SpecialistMarker',_value,true];";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="["""",""""]";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="TMF_assignGear_faction";
+							expression="false";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="un_mo";
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="TMF_assignGear_enabled";
+							expression="false";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=1;
+								};
+							};
+						};
+						class Attribute3
+						{
+							property="TMF_Channellist";
+							expression="_this setVariable ['TMF_Channellist',_value,true];";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="[]";
+								};
+							};
+						};
+						class Attribute4
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						class Attribute5
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male04GRE";
+								};
+							};
+						};
+						class Attribute6
+						{
+							property="TMF_assignGear_full";
+							expression="[_this,_value] call tmf_assignGear_fnc_helper;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="[""pp"",""un_mo"",true]";
+								};
+							};
+						};
+						class Attribute7
+						{
+							property="TMF_assignGear_role";
+							expression="false";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="pp";
+								};
+							};
+						};
+						nAttributes=8;
 					};
 				};
 			};
@@ -15299,125 +15356,6 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={3747.7087,5.0014391,4392.4121};
-					};
-					side="East";
-					flags=6;
-					class Attributes
-					{
-						skill=0.60000002;
-						rank="CAPTAIN";
-						name="UnitCSAT_TH2_P";
-						description="VDV Transport Helo 2 Pilot";
-						isPlayable=1;
-					};
-					id=363;
-					type="rhs_pilot_combat_heli";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="TMF_assignGear_full";
-							expression="[_this,_value] call tmf_assignGear_fnc_helper;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="[""pp"",""vdv_afg"",true]";
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="TMF_Channellist";
-							expression="_this setVariable ['TMF_Channellist',_value,true];";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="[]";
-								};
-							};
-						};
-						class Attribute2
-						{
-							property="TMF_assignGear_role";
-							expression="false";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="pp";
-								};
-							};
-						};
-						class Attribute3
-						{
-							property="TMF_assignGear_enabled";
-							expression="false";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"BOOL"
-										};
-									};
-									value=1;
-								};
-							};
-						};
-						class Attribute4
-						{
-							property="TMF_assignGear_faction";
-							expression="false";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="vdv_afg";
-								};
-							};
-						};
-						nAttributes=5;
-					};
-				};
-				class Item1
-				{
-					dataType="Object";
-					class PositionInfo
-					{
 						position[]={3752.7087,5.0014391,4390.7617};
 					};
 					side="East";
@@ -15532,145 +15470,7 @@ class Mission
 						nAttributes=5;
 					};
 				};
-				class Item2
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={3742.7087,5.0014391,4390.7617};
-					};
-					side="East";
-					flags=4;
-					class Attributes
-					{
-						skill=0.60000002;
-						rank="SERGEANT";
-						name="UnitCSAT_TH2_LM";
-						description="VDV Transport Helo 2 Loadmaster";
-						isPlayable=1;
-					};
-					id=365;
-					type="rhs_pilot_combat_heli";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="TMF_assignGear_full";
-							expression="[_this,_value] call tmf_assignGear_fnc_helper;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="[""pc"",""vdv_afg"",true]";
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="TMF_SpecialistMarker";
-							expression="_this setVariable ['TMF_SpecialistMarker',_value,true];";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="["""",""""]";
-								};
-							};
-						};
-						class Attribute2
-						{
-							property="TMF_Channellist";
-							expression="_this setVariable ['TMF_Channellist',_value,true];";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="[]";
-								};
-							};
-						};
-						class Attribute3
-						{
-							property="TMF_assignGear_role";
-							expression="false";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="pc";
-								};
-							};
-						};
-						class Attribute4
-						{
-							property="TMF_assignGear_enabled";
-							expression="false";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"BOOL"
-										};
-									};
-									value=1;
-								};
-							};
-						};
-						class Attribute5
-						{
-							property="TMF_assignGear_faction";
-							expression="false";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="vdv_afg";
-								};
-							};
-						};
-						nAttributes=6;
-					};
-				};
-				class Item3
+				class Item1
 				{
 					dataType="Object";
 					class PositionInfo
@@ -15687,8 +15487,8 @@ class Mission
 						description="VDV Transport Helo 2 Gunner";
 						isPlayable=1;
 					};
-					id=825;
-					type="rhs_pilot_combat_heli";
+					id=842;
+					type="rhs_vdv_flora_crew";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -15825,6 +15625,263 @@ class Mission
 							};
 						};
 						nAttributes=7;
+					};
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3742.7087,5.0014391,4390.7617};
+					};
+					side="East";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						rank="SERGEANT";
+						name="UnitCSAT_TH2_LM";
+						description="VDV Transport Helo 2 Loadmaster";
+						isPlayable=1;
+					};
+					id=843;
+					type="rhs_vdv_flora_crew";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="TMF_assignGear_full";
+							expression="[_this,_value] call tmf_assignGear_fnc_helper;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="[""pc"",""vdv_afg"",true]";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="TMF_SpecialistMarker";
+							expression="_this setVariable ['TMF_SpecialistMarker',_value,true];";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="["""",""""]";
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="TMF_Channellist";
+							expression="_this setVariable ['TMF_Channellist',_value,true];";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="[]";
+								};
+							};
+						};
+						class Attribute3
+						{
+							property="TMF_assignGear_role";
+							expression="false";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="pc";
+								};
+							};
+						};
+						class Attribute4
+						{
+							property="TMF_assignGear_enabled";
+							expression="false";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=1;
+								};
+							};
+						};
+						class Attribute5
+						{
+							property="TMF_assignGear_faction";
+							expression="false";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="vdv_afg";
+								};
+							};
+						};
+						nAttributes=6;
+					};
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3747.7087,5.0014391,4392.4121};
+					};
+					side="East";
+					flags=6;
+					class Attributes
+					{
+						skill=0.60000002;
+						rank="CAPTAIN";
+						name="UnitCSAT_TH2_P";
+						description="VDV Transport Helo 2 Pilot";
+						isPlayable=1;
+					};
+					id=844;
+					type="rhs_vdv_flora_crew";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="TMF_assignGear_full";
+							expression="[_this,_value] call tmf_assignGear_fnc_helper;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="[""pp"",""vdv_afg"",true]";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="TMF_Channellist";
+							expression="_this setVariable ['TMF_Channellist',_value,true];";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="[]";
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="TMF_assignGear_role";
+							expression="false";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="pp";
+								};
+							};
+						};
+						class Attribute3
+						{
+							property="TMF_assignGear_enabled";
+							expression="false";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=1;
+								};
+							};
+						};
+						class Attribute4
+						{
+							property="TMF_assignGear_faction";
+							expression="false";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="vdv_afg";
+								};
+							};
+						};
+						nAttributes=5;
 					};
 				};
 			};
@@ -16488,7 +16545,7 @@ class Mission
 									"SCALAR"
 								};
 							};
-							value=5;
+							value=-1;
 						};
 					};
 				};
@@ -17013,144 +17070,6 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={3723.8455,5.0014391,4417.5313};
-					};
-					side="East";
-					flags=6;
-					class Attributes
-					{
-						skill=0.60000002;
-						rank="CAPTAIN";
-						name="UnitCSAT_AH1_P";
-						description="VDV Attack Helo 1 Pilot";
-						isPlayable=1;
-					};
-					id=421;
-					type="rhs_pilot_combat_heli";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="TMF_assignGear_full";
-							expression="[_this,_value] call tmf_assignGear_fnc_helper;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="[""pp"",""vdv_afg"",true]";
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="TMF_SpecialistMarker";
-							expression="_this setVariable ['TMF_SpecialistMarker',_value,true];";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="["""",""""]";
-								};
-							};
-						};
-						class Attribute2
-						{
-							property="TMF_Channellist";
-							expression="_this setVariable ['TMF_Channellist',_value,true];";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="[]";
-								};
-							};
-						};
-						class Attribute3
-						{
-							property="TMF_assignGear_role";
-							expression="false";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="pp";
-								};
-							};
-						};
-						class Attribute4
-						{
-							property="TMF_assignGear_enabled";
-							expression="false";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"BOOL"
-										};
-									};
-									value=1;
-								};
-							};
-						};
-						class Attribute5
-						{
-							property="TMF_assignGear_faction";
-							expression="false";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="vdv_afg";
-								};
-							};
-						};
-						nAttributes=6;
-					};
-				};
-				class Item1
-				{
-					dataType="Object";
-					class PositionInfo
-					{
 						position[]={3728.8455,5.0014391,4415.8809};
 					};
 					side="East";
@@ -17284,6 +17203,182 @@ class Mission
 						nAttributes=6;
 					};
 				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3723.845,5.0014391,4417.5308};
+					};
+					side="East";
+					flags=6;
+					class Attributes
+					{
+						skill=0.60000002;
+						rank="CAPTAIN";
+						name="UnitCSAT_AH1_P";
+						description="VDV Attack Helo 1 Pilot";
+						isPlayable=1;
+					};
+					id=838;
+					type="rhs_vdv_flora_crew";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="TMF_SpecialistMarker";
+							expression="_this setVariable ['TMF_SpecialistMarker',_value,true];";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="["""",""""]";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="TMF_assignGear_faction";
+							expression="false";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="vdv_afg";
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="TMF_assignGear_enabled";
+							expression="false";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=1;
+								};
+							};
+						};
+						class Attribute3
+						{
+							property="TMF_Channellist";
+							expression="_this setVariable ['TMF_Channellist',_value,true];";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="[]";
+								};
+							};
+						};
+						class Attribute4
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.04;
+								};
+							};
+						};
+						class Attribute5
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="RHS_Male04RUS";
+								};
+							};
+						};
+						class Attribute6
+						{
+							property="TMF_assignGear_full";
+							expression="[_this,_value] call tmf_assignGear_fnc_helper;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="[""pp"",""vdv_afg"",true]";
+								};
+							};
+						};
+						class Attribute7
+						{
+							property="TMF_assignGear_role";
+							expression="false";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="pp";
+								};
+							};
+						};
+						nAttributes=8;
+					};
+				};
 			};
 			class Attributes
 			{
@@ -17378,125 +17473,6 @@ class Mission
 			{
 				items=2;
 				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={4135.2686,5.0014391,4431.2061};
-					};
-					side="Independent";
-					flags=6;
-					class Attributes
-					{
-						skill=0.60000002;
-						rank="CAPTAIN";
-						name="UnitAAF_TH2_P";
-						description="UN Transport Helo 2 Pilot";
-						isPlayable=1;
-					};
-					id=424;
-					type="rhssaf_airforce_pilot_transport_heli";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="TMF_assignGear_full";
-							expression="[_this,_value] call tmf_assignGear_fnc_helper;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="[""pp"",""un_mo"",true]";
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="TMF_Channellist";
-							expression="_this setVariable ['TMF_Channellist',_value,true];";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="[]";
-								};
-							};
-						};
-						class Attribute2
-						{
-							property="TMF_assignGear_role";
-							expression="false";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="pp";
-								};
-							};
-						};
-						class Attribute3
-						{
-							property="TMF_assignGear_enabled";
-							expression="false";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"BOOL"
-										};
-									};
-									value=1;
-								};
-							};
-						};
-						class Attribute4
-						{
-							property="TMF_assignGear_faction";
-							expression="false";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="un_mo";
-								};
-							};
-						};
-						nAttributes=5;
-					};
-				};
-				class Item1
 				{
 					dataType="Object";
 					class PositionInfo
@@ -17613,6 +17589,182 @@ class Mission
 							};
 						};
 						nAttributes=5;
+					};
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={4135.269,5.0014391,4431.2056};
+					};
+					side="Independent";
+					flags=6;
+					class Attributes
+					{
+						skill=0.60000002;
+						rank="CAPTAIN";
+						name="UnitAAF_TH2_P";
+						description="UN Transport Helo 2 Pilot";
+						isPlayable=1;
+					};
+					id=847;
+					type="rhssaf_un_m10_digital_desert_crew";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="TMF_SpecialistMarker";
+							expression="_this setVariable ['TMF_SpecialistMarker',_value,true];";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="["""",""""]";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="TMF_assignGear_faction";
+							expression="false";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="un_mo";
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="TMF_assignGear_enabled";
+							expression="false";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=1;
+								};
+							};
+						};
+						class Attribute3
+						{
+							property="TMF_Channellist";
+							expression="_this setVariable ['TMF_Channellist',_value,true];";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="[]";
+								};
+							};
+						};
+						class Attribute4
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.97000003;
+								};
+							};
+						};
+						class Attribute5
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male03GRE";
+								};
+							};
+						};
+						class Attribute6
+						{
+							property="TMF_assignGear_full";
+							expression="[_this,_value] call tmf_assignGear_fnc_helper;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="[""pp"",""un_mo"",true]";
+								};
+							};
+						};
+						class Attribute7
+						{
+							property="TMF_assignGear_role";
+							expression="false";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="pp";
+								};
+							};
+						};
+						nAttributes=8;
 					};
 				};
 			};
@@ -18278,7 +18430,7 @@ class Mission
 									"SCALAR"
 								};
 							};
-							value=14;
+							value=-1;
 						};
 					};
 				};
@@ -18806,144 +18958,6 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={4085.8215,5.0014391,4446.0376};
-					};
-					side="Independent";
-					flags=6;
-					class Attributes
-					{
-						skill=0.60000002;
-						rank="CAPTAIN";
-						name="UnitAAF_AH1_P";
-						description="UN Attack Helo 1 Pilot";
-						isPlayable=1;
-					};
-					id=469;
-					type="rhssaf_airforce_pilot_transport_heli";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="TMF_assignGear_full";
-							expression="[_this,_value] call tmf_assignGear_fnc_helper;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="[""pp"",""un_mo"",true]";
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="TMF_SpecialistMarker";
-							expression="_this setVariable ['TMF_SpecialistMarker',_value,true];";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="["""",""""]";
-								};
-							};
-						};
-						class Attribute2
-						{
-							property="TMF_Channellist";
-							expression="_this setVariable ['TMF_Channellist',_value,true];";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="[]";
-								};
-							};
-						};
-						class Attribute3
-						{
-							property="TMF_assignGear_role";
-							expression="false";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="pp";
-								};
-							};
-						};
-						class Attribute4
-						{
-							property="TMF_assignGear_enabled";
-							expression="false";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"BOOL"
-										};
-									};
-									value=1;
-								};
-							};
-						};
-						class Attribute5
-						{
-							property="TMF_assignGear_faction";
-							expression="false";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="un_mo";
-								};
-							};
-						};
-						nAttributes=6;
-					};
-				};
-				class Item1
-				{
-					dataType="Object";
-					class PositionInfo
-					{
 						position[]={4089.0593,5.0014391,4443.0215};
 					};
 					side="Independent";
@@ -19056,6 +19070,182 @@ class Mission
 							};
 						};
 						nAttributes=5;
+					};
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={4085.822,5.0014391,4446.0376};
+					};
+					side="Independent";
+					flags=6;
+					class Attributes
+					{
+						skill=0.60000002;
+						rank="CAPTAIN";
+						name="UnitAAF_AH1_P";
+						description="UN Attack Helo 1 Pilot";
+						isPlayable=1;
+					};
+					id=846;
+					type="rhssaf_un_m10_digital_desert_crew";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="TMF_SpecialistMarker";
+							expression="_this setVariable ['TMF_SpecialistMarker',_value,true];";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="["""",""""]";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="TMF_assignGear_faction";
+							expression="false";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="un_mo";
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="TMF_assignGear_enabled";
+							expression="false";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=1;
+								};
+							};
+						};
+						class Attribute3
+						{
+							property="TMF_Channellist";
+							expression="_this setVariable ['TMF_Channellist',_value,true];";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="[]";
+								};
+							};
+						};
+						class Attribute4
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						class Attribute5
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male02GRE";
+								};
+							};
+						};
+						class Attribute6
+						{
+							property="TMF_assignGear_full";
+							expression="[_this,_value] call tmf_assignGear_fnc_helper;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="[""pp"",""un_mo"",true]";
+								};
+							};
+						};
+						class Attribute7
+						{
+							property="TMF_assignGear_role";
+							expression="false";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="pp";
+								};
+							};
+						};
+						nAttributes=8;
 					};
 				};
 			};
@@ -23854,7 +24044,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={3715.5945,5.0014391,4390.5039};
+						position[]={3715.594,5.0014391,4390.5039};
 					};
 					side="East";
 					flags=6;
@@ -23866,30 +24056,11 @@ class Mission
 						description="VDV CAS1 Pilot";
 						isPlayable=1;
 					};
-					id=532;
-					type="rhs_pilot_combat_heli";
+					id=845;
+					type="rhs_vdv_flora_crew";
 					class CustomAttributes
 					{
 						class Attribute0
-						{
-							property="TMF_assignGear_full";
-							expression="[_this,_value] call tmf_assignGear_fnc_helper;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="[""jp"",""vdv_afg"",true]";
-								};
-							};
-						};
-						class Attribute1
 						{
 							property="TMF_SpecialistMarker";
 							expression="_this setVariable ['TMF_SpecialistMarker',_value,true];";
@@ -23908,64 +24079,7 @@ class Mission
 								};
 							};
 						};
-						class Attribute2
-						{
-							property="TMF_Channellist";
-							expression="_this setVariable ['TMF_Channellist',_value,true];";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="[]";
-								};
-							};
-						};
-						class Attribute3
-						{
-							property="TMF_assignGear_role";
-							expression="false";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="jp";
-								};
-							};
-						};
-						class Attribute4
-						{
-							property="TMF_assignGear_enabled";
-							expression="false";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"BOOL"
-										};
-									};
-									value=1;
-								};
-							};
-						};
-						class Attribute5
+						class Attribute1
 						{
 							property="TMF_assignGear_faction";
 							expression="false";
@@ -23984,7 +24098,121 @@ class Mission
 								};
 							};
 						};
-						nAttributes=6;
+						class Attribute2
+						{
+							property="TMF_assignGear_enabled";
+							expression="false";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=1;
+								};
+							};
+						};
+						class Attribute3
+						{
+							property="TMF_Channellist";
+							expression="_this setVariable ['TMF_Channellist',_value,true];";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="[]";
+								};
+							};
+						};
+						class Attribute4
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.02;
+								};
+							};
+						};
+						class Attribute5
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="RHS_Male03RUS";
+								};
+							};
+						};
+						class Attribute6
+						{
+							property="TMF_assignGear_full";
+							expression="[_this,_value] call tmf_assignGear_fnc_helper;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="[""jp"",""vdv_afg"",true]";
+								};
+							};
+						};
+						class Attribute7
+						{
+							property="TMF_assignGear_role";
+							expression="false";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="jp";
+								};
+							};
+						};
+						nAttributes=8;
 					};
 				};
 			};
@@ -24514,7 +24742,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="[""x\tmf\addons\orbat\textures\yellow_mg_m.paa"",""MMG1"","""",3]";
+							value="[""x\tmf\addons\orbat\textures\yellow_mg_m.paa"",""MMG1"","""",4]";
 						};
 					};
 				};
@@ -24981,7 +25209,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="[""x\tmf\addons\orbat\textures\yellow_mg_m.paa"",""MMG2"","""",4]";
+							value="[""x\tmf\addons\orbat\textures\yellow_mg_m.paa"",""MMG2"","""",5]";
 						};
 					};
 				};
@@ -25952,7 +26180,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="[""x\tmf\addons\orbat\textures\yellow_antitank.paa"",""MAT1"","""",5]";
+							value="[""x\tmf\addons\orbat\textures\yellow_antitank.paa"",""MAT1"","""",6]";
 						};
 					};
 				};
@@ -26437,7 +26665,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="[""x\tmf\addons\orbat\textures\yellow_antitank.paa"",""MAT2"","""",6]";
+							value="[""x\tmf\addons\orbat\textures\yellow_antitank.paa"",""MAT2"","""",8]";
 						};
 					};
 				};
@@ -26922,7 +27150,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="[""x\tmf\addons\orbat\textures\yellow_antitank.paa"",""HAT1"","""",8]";
+							value="[""x\tmf\addons\orbat\textures\yellow_antitank.paa"",""HAT1"","""",9]";
 						};
 					};
 				};
@@ -27795,7 +28023,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="[""x\tmf\addons\orbat\textures\yellow_airdef_not_a_nipple.paa"",""MSAM1"","""",9]";
+							value="[""x\tmf\addons\orbat\textures\yellow_airdef_not_a_nipple.paa"",""MSAM1"","""",10]";
 						};
 					};
 				};
@@ -28804,7 +29032,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={4075.8035,5.0014391,4422.1689};
+						position[]={4075.803,5.0014391,4422.1689};
 					};
 					side="Independent";
 					flags=6;
@@ -28816,30 +29044,11 @@ class Mission
 						description="UN CAS1 Pilot";
 						isPlayable=1;
 					};
-					id=574;
-					type="rhssaf_airforce_pilot_transport_heli";
+					id=848;
+					type="rhssaf_un_m10_digital_crew";
 					class CustomAttributes
 					{
 						class Attribute0
-						{
-							property="TMF_assignGear_full";
-							expression="[_this,_value] call tmf_assignGear_fnc_helper;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="[""jp"",""un_mo"",true]";
-								};
-							};
-						};
-						class Attribute1
 						{
 							property="TMF_SpecialistMarker";
 							expression="_this setVariable ['TMF_SpecialistMarker',_value,true];";
@@ -28858,64 +29067,7 @@ class Mission
 								};
 							};
 						};
-						class Attribute2
-						{
-							property="TMF_Channellist";
-							expression="_this setVariable ['TMF_Channellist',_value,true];";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="[]";
-								};
-							};
-						};
-						class Attribute3
-						{
-							property="TMF_assignGear_role";
-							expression="false";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="jp";
-								};
-							};
-						};
-						class Attribute4
-						{
-							property="TMF_assignGear_enabled";
-							expression="false";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"BOOL"
-										};
-									};
-									value=1;
-								};
-							};
-						};
-						class Attribute5
+						class Attribute1
 						{
 							property="TMF_assignGear_faction";
 							expression="false";
@@ -28934,7 +29086,121 @@ class Mission
 								};
 							};
 						};
-						nAttributes=6;
+						class Attribute2
+						{
+							property="TMF_assignGear_enabled";
+							expression="false";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=1;
+								};
+							};
+						};
+						class Attribute3
+						{
+							property="TMF_Channellist";
+							expression="_this setVariable ['TMF_Channellist',_value,true];";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="[]";
+								};
+							};
+						};
+						class Attribute4
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.98000002;
+								};
+							};
+						};
+						class Attribute5
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male04GRE";
+								};
+							};
+						};
+						class Attribute6
+						{
+							property="TMF_assignGear_full";
+							expression="[_this,_value] call tmf_assignGear_fnc_helper;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="[""jp"",""un_mo"",true]";
+								};
+							};
+						};
+						class Attribute7
+						{
+							property="TMF_assignGear_role";
+							expression="false";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="jp";
+								};
+							};
+						};
+						nAttributes=8;
 					};
 				};
 			};
@@ -35310,7 +35576,7 @@ class Mission
 									"SCALAR"
 								};
 							};
-							value=11;
+							value=-1;
 						};
 					};
 				};
@@ -36479,7 +36745,7 @@ class Mission
 									"SCALAR"
 								};
 							};
-							value=11;
+							value=-1;
 						};
 					};
 				};
@@ -37604,7 +37870,7 @@ class Mission
 									"SCALAR"
 								};
 							};
-							value=11;
+							value=-1;
 						};
 					};
 				};
@@ -43908,7 +44174,7 @@ class Mission
 									"SCALAR"
 								};
 							};
-							value=11;
+							value=-1;
 						};
 					};
 				};
